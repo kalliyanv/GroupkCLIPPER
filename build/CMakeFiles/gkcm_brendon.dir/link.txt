@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.o  -o gkcm_brendon   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib -lgen_max_clique -lpthread 

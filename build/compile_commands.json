@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build",
+  "command": "/usr/bin/g++   -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include  -g   -std=gnu++17 -o CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/gkcm_test.cpp",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/gkcm_test.cpp"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build",
+  "command": "/usr/bin/g++   -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include  -g   -std=gnu++17 -o CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/GkCLIPPER.cpp",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/GkCLIPPER.cpp"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build",
+  "command": "/usr/bin/g++   -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include  -g   -std=gnu++17 -o CMakeFiles/GroupkCLIPPER.dir/src/main.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/main.cpp",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/main.cpp"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build",
+  "command": "/usr/bin/g++   -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include  -g   -std=gnu++17 -o CMakeFiles/GroupkCLIPPER.dir/src/GkCLIPPER.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/GkCLIPPER.cpp",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/GkCLIPPER.cpp"
+}
+]
