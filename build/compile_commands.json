@@ -1,22 +1,374 @@
 [
 {
   "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build",
-  "command": "/usr/bin/g++   -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include  -g   -std=gnu++17 -o CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/gkcm_test.cpp",
-  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/gkcm_test.cpp"
+  "command": "/usr/bin/g++  -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -g -std=gnu++17 -o CMakeFiles/GroupkCLIPPER.dir/src/main.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/main.cpp",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/main.cpp",
+  "output": "CMakeFiles/GroupkCLIPPER.dir/src/main.cpp.o"
 },
 {
   "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build",
-  "command": "/usr/bin/g++   -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include  -g   -std=gnu++17 -o CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/GkCLIPPER.cpp",
-  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/GkCLIPPER.cpp"
+  "command": "/usr/bin/g++  -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -g -std=gnu++17 -o CMakeFiles/GroupkCLIPPER.dir/src/GkCLIPPER.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/GkCLIPPER.cpp",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/GkCLIPPER.cpp",
+  "output": "CMakeFiles/GroupkCLIPPER.dir/src/GkCLIPPER.cpp.o"
 },
 {
   "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build",
-  "command": "/usr/bin/g++   -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include  -g   -std=gnu++17 -o CMakeFiles/GroupkCLIPPER.dir/src/main.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/main.cpp",
-  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/main.cpp"
+  "command": "/usr/bin/g++ -DCLIPPER_HAS_PMC -DCLIPPER_HAS_SCS -DCLIPPER_VERSION=\\\"0.2.4\\\" -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/clipper/src/include -isystem /usr/include/eigen3 -g -std=gnu++17 -march=native -mavx -mfma -o CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/gkcm_test.cpp",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/gkcm_test.cpp",
+  "output": "CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o"
 },
 {
   "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build",
-  "command": "/usr/bin/g++   -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include  -g   -std=gnu++17 -o CMakeFiles/GroupkCLIPPER.dir/src/GkCLIPPER.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/GkCLIPPER.cpp",
-  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/GkCLIPPER.cpp"
+  "command": "/usr/bin/g++ -DCLIPPER_HAS_PMC -DCLIPPER_HAS_SCS -DCLIPPER_VERSION=\\\"0.2.4\\\" -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/clipper/src/include -isystem /usr/include/eigen3 -g -std=gnu++17 -march=native -mavx -mfma -o CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/GkCLIPPER.cpp",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/GkCLIPPER.cpp",
+  "output": "CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/clipper/build",
+  "command": "/usr/bin/g++ -DCLIPPER_HAS_PMC -DCLIPPER_HAS_SCS -DCLIPPER_VERSION=\\\"0.2.4\\\" -Dclipper_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/clipper/src/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -isystem /usr/include/eigen3 -g -std=gnu++14 -fPIC -march=native -mavx -mfma -fopenmp -o CMakeFiles/clipper.dir/src/clipper.cpp.o -c /home/kalliyanlay/Documents/BYU/research/clipper/src/src/clipper.cpp",
+  "file": "/home/kalliyanlay/Documents/BYU/research/clipper/src/src/clipper.cpp",
+  "output": "/home/kalliyanlay/Documents/BYU/research/clipper/build/CMakeFiles/clipper.dir/src/clipper.cpp.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/clipper/build",
+  "command": "/usr/bin/g++ -DCLIPPER_HAS_PMC -DCLIPPER_HAS_SCS -DCLIPPER_VERSION=\\\"0.2.4\\\" -Dclipper_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/clipper/src/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -isystem /usr/include/eigen3 -g -std=gnu++14 -fPIC -march=native -mavx -mfma -fopenmp -o CMakeFiles/clipper.dir/src/utils.cpp.o -c /home/kalliyanlay/Documents/BYU/research/clipper/src/src/utils.cpp",
+  "file": "/home/kalliyanlay/Documents/BYU/research/clipper/src/src/utils.cpp",
+  "output": "/home/kalliyanlay/Documents/BYU/research/clipper/build/CMakeFiles/clipper.dir/src/utils.cpp.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/clipper/build",
+  "command": "/usr/bin/g++ -DCLIPPER_HAS_PMC -DCLIPPER_HAS_SCS -DCLIPPER_VERSION=\\\"0.2.4\\\" -Dclipper_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/clipper/src/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -isystem /usr/include/eigen3 -g -std=gnu++14 -fPIC -march=native -mavx -mfma -fopenmp -o CMakeFiles/clipper.dir/src/dsd.cpp.o -c /home/kalliyanlay/Documents/BYU/research/clipper/src/src/dsd.cpp",
+  "file": "/home/kalliyanlay/Documents/BYU/research/clipper/src/src/dsd.cpp",
+  "output": "/home/kalliyanlay/Documents/BYU/research/clipper/build/CMakeFiles/clipper.dir/src/dsd.cpp.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/clipper/build",
+  "command": "/usr/bin/g++ -DCLIPPER_HAS_PMC -DCLIPPER_HAS_SCS -DCLIPPER_VERSION=\\\"0.2.4\\\" -Dclipper_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/clipper/src/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -isystem /usr/include/eigen3 -g -std=gnu++14 -fPIC -march=native -mavx -mfma -fopenmp -o CMakeFiles/clipper.dir/src/sdp.cpp.o -c /home/kalliyanlay/Documents/BYU/research/clipper/src/src/sdp.cpp",
+  "file": "/home/kalliyanlay/Documents/BYU/research/clipper/src/src/sdp.cpp",
+  "output": "/home/kalliyanlay/Documents/BYU/research/clipper/build/CMakeFiles/clipper.dir/src/sdp.cpp.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/clipper/build",
+  "command": "/usr/bin/g++ -DCLIPPER_HAS_PMC -DCLIPPER_HAS_SCS -DCLIPPER_VERSION=\\\"0.2.4\\\" -Dclipper_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/clipper/src/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -isystem /usr/include/eigen3 -g -std=gnu++14 -fPIC -march=native -mavx -mfma -fopenmp -o CMakeFiles/clipper.dir/src/maxclique.cpp.o -c /home/kalliyanlay/Documents/BYU/research/clipper/src/src/maxclique.cpp",
+  "file": "/home/kalliyanlay/Documents/BYU/research/clipper/src/src/maxclique.cpp",
+  "output": "/home/kalliyanlay/Documents/BYU/research/clipper/build/CMakeFiles/clipper.dir/src/maxclique.cpp.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/clipper/build",
+  "command": "/usr/bin/g++ -DCLIPPER_HAS_PMC -DCLIPPER_HAS_SCS -DCLIPPER_VERSION=\\\"0.2.4\\\" -Dclipper_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/clipper/src/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -isystem /usr/include/eigen3 -g -std=gnu++14 -fPIC -march=native -mavx -mfma -fopenmp -o CMakeFiles/clipper.dir/src/invariants/euclidean_distance.cpp.o -c /home/kalliyanlay/Documents/BYU/research/clipper/src/src/invariants/euclidean_distance.cpp",
+  "file": "/home/kalliyanlay/Documents/BYU/research/clipper/src/src/invariants/euclidean_distance.cpp",
+  "output": "/home/kalliyanlay/Documents/BYU/research/clipper/build/CMakeFiles/clipper.dir/src/invariants/euclidean_distance.cpp.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/clipper/build",
+  "command": "/usr/bin/g++ -DCLIPPER_HAS_PMC -DCLIPPER_HAS_SCS -DCLIPPER_VERSION=\\\"0.2.4\\\" -Dclipper_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/clipper/src/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -isystem /usr/include/eigen3 -g -std=gnu++14 -fPIC -march=native -mavx -mfma -fopenmp -o CMakeFiles/clipper.dir/src/invariants/pointnormal_distance.cpp.o -c /home/kalliyanlay/Documents/BYU/research/clipper/src/src/invariants/pointnormal_distance.cpp",
+  "file": "/home/kalliyanlay/Documents/BYU/research/clipper/src/src/invariants/pointnormal_distance.cpp",
+  "output": "/home/kalliyanlay/Documents/BYU/research/clipper/build/CMakeFiles/clipper.dir/src/invariants/pointnormal_distance.cpp.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build",
+  "command": "/usr/bin/g++ -Dpmc_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/include -g -std=gnu++14 -fPIC -fopenmp -o CMakeFiles/pmc.dir/pmc_heu.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_heu.cpp",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_heu.cpp",
+  "output": "_deps/pmc-build/CMakeFiles/pmc.dir/pmc_heu.cpp.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build",
+  "command": "/usr/bin/g++ -Dpmc_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/include -g -std=gnu++14 -fPIC -fopenmp -o CMakeFiles/pmc.dir/pmc_maxclique.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_maxclique.cpp",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_maxclique.cpp",
+  "output": "_deps/pmc-build/CMakeFiles/pmc.dir/pmc_maxclique.cpp.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build",
+  "command": "/usr/bin/g++ -Dpmc_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/include -g -std=gnu++14 -fPIC -fopenmp -o CMakeFiles/pmc.dir/pmcx_maxclique.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmcx_maxclique.cpp",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmcx_maxclique.cpp",
+  "output": "_deps/pmc-build/CMakeFiles/pmc.dir/pmcx_maxclique.cpp.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build",
+  "command": "/usr/bin/g++ -Dpmc_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/include -g -std=gnu++14 -fPIC -fopenmp -o CMakeFiles/pmc.dir/pmcx_maxclique_basic.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmcx_maxclique_basic.cpp",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmcx_maxclique_basic.cpp",
+  "output": "_deps/pmc-build/CMakeFiles/pmc.dir/pmcx_maxclique_basic.cpp.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build",
+  "command": "/usr/bin/g++ -Dpmc_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/include -g -std=gnu++14 -fPIC -fopenmp -o CMakeFiles/pmc.dir/pmc_cores.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_cores.cpp",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_cores.cpp",
+  "output": "_deps/pmc-build/CMakeFiles/pmc.dir/pmc_cores.cpp.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build",
+  "command": "/usr/bin/g++ -Dpmc_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/include -g -std=gnu++14 -fPIC -fopenmp -o CMakeFiles/pmc.dir/pmc_utils.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_utils.cpp",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_utils.cpp",
+  "output": "_deps/pmc-build/CMakeFiles/pmc.dir/pmc_utils.cpp.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build",
+  "command": "/usr/bin/g++ -Dpmc_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/include -g -std=gnu++14 -fPIC -fopenmp -o CMakeFiles/pmc.dir/pmc_graph.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_graph.cpp",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_graph.cpp",
+  "output": "_deps/pmc-build/CMakeFiles/pmc.dir/pmc_graph.cpp.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build",
+  "command": "/usr/bin/g++ -Dpmc_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/include -g -std=gnu++14 -fPIC -fopenmp -o CMakeFiles/pmc.dir/pmc_clique_utils.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_clique_utils.cpp",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_clique_utils.cpp",
+  "output": "_deps/pmc-build/CMakeFiles/pmc.dir/pmc_clique_utils.cpp.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build",
+  "command": "/usr/bin/g++  -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/include -g -std=gnu++14 -fopenmp -o CMakeFiles/pmc_main.dir/pmc_driver.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_driver.cpp",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_driver.cpp",
+  "output": "_deps/pmc-build/CMakeFiles/pmc_main.dir/pmc_driver.cpp.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/src/aa.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/aa.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/aa.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/src/aa.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/src/cones.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/cones.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/cones.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/src/cones.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/src/ctrlc.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/ctrlc.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/ctrlc.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/src/ctrlc.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/src/exp_cone.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/exp_cone.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/exp_cone.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/src/exp_cone.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/src/linalg.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/linalg.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/linalg.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/src/linalg.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/src/normalize.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/normalize.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/normalize.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/src/normalize.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/src/rw.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/rw.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/rw.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/src/rw.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/src/scs.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/scs.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/scs.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/src/scs.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/src/scs_version.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/scs_version.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/scs_version.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/src/scs_version.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/src/util.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/util.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/util.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/src/util.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/linsys/csparse.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/csparse.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/csparse.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/linsys/csparse.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/linsys/scs_matrix.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/scs_matrix.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/scs_matrix.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/linsys/scs_matrix.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/linsys/cpu/direct/private.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct/private.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct/private.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/linsys/cpu/direct/private.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/linsys/external/qdldl/qdldl.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl/qdldl.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl/qdldl.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/qdldl/qdldl.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/linsys/external/amd/SuiteSparse_config.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/SuiteSparse_config.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/SuiteSparse_config.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/SuiteSparse_config.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_1.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_1.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_1.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_1.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_2.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_2.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_2.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_2.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_aat.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_aat.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_aat.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_aat.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_control.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_control.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_control.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_control.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_defaults.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_defaults.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_defaults.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_defaults.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_dump.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_dump.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_dump.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_dump.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_global.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_global.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_global.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_global.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_info.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_info.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_info.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_info.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_order.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_order.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_order.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_order.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_post_tree.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_post_tree.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_post_tree.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_post_tree.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_postorder.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_postorder.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_postorder.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_postorder.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_preprocess.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_preprocess.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_preprocess.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_preprocess.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DUSE_LAPACK -DCTRLC -Dscsdir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_valid.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_valid.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_valid.c",
+  "output": "_deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_valid.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DINDIRECT -DUSE_LAPACK -DCTRLC -Dscsindir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/indirect -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsindir.dir/src/aa.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/aa.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/aa.c",
+  "output": "_deps/scs-build/CMakeFiles/scsindir.dir/src/aa.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DINDIRECT -DUSE_LAPACK -DCTRLC -Dscsindir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/indirect -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsindir.dir/src/cones.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/cones.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/cones.c",
+  "output": "_deps/scs-build/CMakeFiles/scsindir.dir/src/cones.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DINDIRECT -DUSE_LAPACK -DCTRLC -Dscsindir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/indirect -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsindir.dir/src/ctrlc.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/ctrlc.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/ctrlc.c",
+  "output": "_deps/scs-build/CMakeFiles/scsindir.dir/src/ctrlc.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DINDIRECT -DUSE_LAPACK -DCTRLC -Dscsindir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/indirect -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsindir.dir/src/exp_cone.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/exp_cone.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/exp_cone.c",
+  "output": "_deps/scs-build/CMakeFiles/scsindir.dir/src/exp_cone.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DINDIRECT -DUSE_LAPACK -DCTRLC -Dscsindir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/indirect -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsindir.dir/src/linalg.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/linalg.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/linalg.c",
+  "output": "_deps/scs-build/CMakeFiles/scsindir.dir/src/linalg.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DINDIRECT -DUSE_LAPACK -DCTRLC -Dscsindir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/indirect -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsindir.dir/src/normalize.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/normalize.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/normalize.c",
+  "output": "_deps/scs-build/CMakeFiles/scsindir.dir/src/normalize.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DINDIRECT -DUSE_LAPACK -DCTRLC -Dscsindir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/indirect -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsindir.dir/src/rw.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/rw.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/rw.c",
+  "output": "_deps/scs-build/CMakeFiles/scsindir.dir/src/rw.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DINDIRECT -DUSE_LAPACK -DCTRLC -Dscsindir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/indirect -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsindir.dir/src/scs.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/scs.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/scs.c",
+  "output": "_deps/scs-build/CMakeFiles/scsindir.dir/src/scs.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DINDIRECT -DUSE_LAPACK -DCTRLC -Dscsindir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/indirect -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsindir.dir/src/scs_version.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/scs_version.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/scs_version.c",
+  "output": "_deps/scs-build/CMakeFiles/scsindir.dir/src/scs_version.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DINDIRECT -DUSE_LAPACK -DCTRLC -Dscsindir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/indirect -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsindir.dir/src/util.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/util.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/util.c",
+  "output": "_deps/scs-build/CMakeFiles/scsindir.dir/src/util.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DINDIRECT -DUSE_LAPACK -DCTRLC -Dscsindir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/indirect -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsindir.dir/linsys/csparse.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/csparse.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/csparse.c",
+  "output": "_deps/scs-build/CMakeFiles/scsindir.dir/linsys/csparse.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DINDIRECT -DUSE_LAPACK -DCTRLC -Dscsindir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/indirect -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsindir.dir/linsys/scs_matrix.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/scs_matrix.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/scs_matrix.c",
+  "output": "_deps/scs-build/CMakeFiles/scsindir.dir/linsys/scs_matrix.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build",
+  "command": "/usr/bin/gcc -DINDIRECT -DUSE_LAPACK -DCTRLC -Dscsindir_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/indirect -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/include -g -fPIC -o CMakeFiles/scsindir.dir/linsys/cpu/indirect/private.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/indirect/private.c",
+  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/indirect/private.c",
+  "output": "_deps/scs-build/CMakeFiles/scsindir.dir/linsys/cpu/indirect/private.c.o"
+},
+{
+  "directory": "/home/kalliyanlay/Documents/BYU/research/clipper/build/bindings/python",
+  "command": "/usr/bin/g++ -DCLIPPER_HAS_PMC -DCLIPPER_HAS_SCS -DCLIPPER_VERSION=\\\"0.2.4\\\" -Dpy_clipper_EXPORTS -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/clipper/src/include -isystem /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pybind11-src/include -isystem /home/kalliyanlay/anaconda3/include/python3.8 -isystem /usr/include/eigen3 -g -std=gnu++14 -fPIC -fvisibility=hidden -march=native -mavx -mfma -o CMakeFiles/py_clipper.dir/py_clipper.cpp.o -c /home/kalliyanlay/Documents/BYU/research/clipper/src/bindings/python/py_clipper.cpp",
+  "file": "/home/kalliyanlay/Documents/BYU/research/clipper/src/bindings/python/py_clipper.cpp",
+  "output": "/home/kalliyanlay/Documents/BYU/research/clipper/build/bindings/python/CMakeFiles/py_clipper.dir/py_clipper.cpp.o"
 }
 ]

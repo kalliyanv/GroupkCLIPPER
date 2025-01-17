@@ -1,0 +1,72 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/kalliyanlay/Documents/BYU/research/clipper/src/bindings/python/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "pypkg::@c6bc6cdf442220e53a90"
+		}
+	],
+	"id" : "pip-install::@c6bc6cdf442220e53a90",
+	"name" : "pip-install",
+	"paths" : 
+	{
+		"build" : "/home/kalliyanlay/Documents/BYU/research/clipper/build/bindings/python",
+		"source" : "/home/kalliyanlay/Documents/BYU/research/clipper/src/bindings/python"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/kalliyanlay/Documents/BYU/research/clipper/build/bindings/python/CMakeFiles/pip-install",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/kalliyanlay/Documents/BYU/research/clipper/build/bindings/python/CMakeFiles/pip-install.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

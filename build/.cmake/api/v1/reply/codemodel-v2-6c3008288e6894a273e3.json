@@ -1,0 +1,284 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2
+					]
+				},
+				{
+					"build" : "/home/kalliyanlay/Documents/BYU/research/clipper/build",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Debug-116df8c8dbc913005aa9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/home/kalliyanlay/Documents/BYU/research/clipper/src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "_deps/pybind11-build",
+					"jsonFile" : "directory-_deps.pybind11-build-Debug-b7b324784034f4cfd3bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "build/_deps/pybind11-src"
+				},
+				{
+					"build" : "_deps/pmc-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.pmc-build-Debug-e231f31e779b9d3f7c61.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "build/_deps/pmc-src",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "_deps/scs-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.scs-build-Debug-ac29f2ab70651cd95918.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "build/_deps/scs-src",
+					"targetIndexes" : 
+					[
+						8,
+						9,
+						10
+					]
+				},
+				{
+					"build" : "/home/kalliyanlay/Documents/BYU/research/clipper/build/bindings/python",
+					"jsonFile" : "directory-Debug-cd5449f31c0531b3198e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/home/kalliyanlay/Documents/BYU/research/clipper/src/bindings/python",
+					"targetIndexes" : 
+					[
+						3,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "GroupkCLIPPER",
+					"targetIndexes" : 
+					[
+						0,
+						2
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						5
+					],
+					"name" : "clipper",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						3,
+						6,
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "pybind11",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "pmc",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "scs",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "GroupkCLIPPER::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GroupkCLIPPER-Debug-4ed7e479c21720bd4aca.json",
+					"name" : "GroupkCLIPPER",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "clipper::@f29b714fa109c354b8db",
+					"jsonFile" : "target-clipper-Debug-7beffba2eee97e92602f.json",
+					"name" : "clipper",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gkcm_brendon::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gkcm_brendon-Debug-fad715f452b4dabf4578.json",
+					"name" : "gkcm_brendon",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "pip-install::@c6bc6cdf442220e53a90",
+					"jsonFile" : "target-pip-install-Debug-9119623d90fcc15bc1e3.json",
+					"name" : "pip-install",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "pmc::@a54a2f25651ca955a6e5",
+					"jsonFile" : "target-pmc-Debug-f7c5ef19105bbf43aa61.json",
+					"name" : "pmc",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "pmc_main::@a54a2f25651ca955a6e5",
+					"jsonFile" : "target-pmc_main-Debug-08edc65239e26ad06637.json",
+					"name" : "pmc_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "py_clipper::@c6bc6cdf442220e53a90",
+					"jsonFile" : "target-py_clipper-Debug-fe8d650ebce5ec59dc27.json",
+					"name" : "py_clipper",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "pypkg::@c6bc6cdf442220e53a90",
+					"jsonFile" : "target-pypkg-Debug-8cbd03cec853c8d26550.json",
+					"name" : "pypkg",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "scsdir::@5fb26d892101612e83ea",
+					"jsonFile" : "target-scsdir-Debug-e5c2f9601cb385e0675e.json",
+					"name" : "scsdir",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "scsindir::@5fb26d892101612e83ea",
+					"jsonFile" : "target-scsindir-Debug-c01d604620645dbe2fad.json",
+					"name" : "scsindir",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "uninstall::@5fb26d892101612e83ea",
+					"jsonFile" : "target-uninstall-Debug-cf02f337e2db7f96c2a1.json",
+					"name" : "uninstall",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build",
+		"source" : "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -45,14 +45,13 @@ double GkCLIPPER::calculate_k_norm(const xt::xarray<double>& x, int k) {
 }
 
 // Function to perform tensor contraction
-double GkCLIPPER::tensor_contract(const xt::xarray<double>& tensor, const xt::xarray<double>& x, int k) {
+xt::xarray<double> GkCLIPPER::tensor_contract(const xt::xarray<double>& tensor, const xt::xarray<double>& x, int k) {
     // Simplified contraction for demonstration purposes
     auto result = tensor;
-    for (int i = 0; i < k; ++i) {
-        // result = xt::sum(result * x, {0});
+    for (int i = 0; i < k; i++) {
         result = xt::linalg::tensordot(result, x, {0}, {0});
     }
-    return result();
+    return result;
 }
 
 // Gradient computation
@@ -73,7 +72,7 @@ xt::xarray<double> GkCLIPPER::gradient(const xt::xarray<double>& tensor, const x
 // Rayleigh quotient computation
 double GkCLIPPER::rayleigh_quotient(const xt::xarray<double>& tensor, const xt::xarray<double>& x, int k) {
     // Contract the tensor k times for the numerator
-    return tensor_contract(tensor, x, k);
+    return tensor_contract(tensor, x, k)();
 }
 
 // H-eigenvalue computation
@@ -107,24 +106,38 @@ void GkCLIPPER::h_eigenvalue_rayleigh(
     double f_x; 
 
     for (int iter = 0; iter < max_iter; ++iter) {
+        // cout << "\neigenval iters " << iter << endl;
 
         // Gradient at the current point
+        auto start = high_resolution_clock::now();
         auto grad = gradient(Md, x, k, d);
+        // cout << "grad " << grad << endl;
+        auto stop = high_resolution_clock::now();
+        auto duration = duration_cast<microseconds>(stop - start);
+        // std::cout << "Time grad " << duration.count() << std::endl;
 
         // Backtracking line search to find step size
         double t = 1.0; // Initial step size
+        start = high_resolution_clock::now();
         f_x = rayleigh_quotient(M, x, k);
+        stop = high_resolution_clock::now();
+        duration = duration_cast<microseconds>(stop - start);
+        // std::cout << "Time rayleigh " << duration.count() << std::endl;
 
         while (rayleigh_quotient(M, x + t * grad, k) < f_x + alpha * t * xt::sum(grad * grad)()) {
             t *= beta;
         }
 
-
+        // cout << "step size " << t << endl;
         // Update x using the computed step size. TODO use backtracking or not? t * grad vs alpha * grad
+        start = high_resolution_clock::now();
         xt::xarray<double> x_new = x + t * grad;
         x_new = xt::maximum(x_new, 0.0);        // project onto positive orthant
+        // cout << "x new " << x_new << endl;
         norm = calculate_k_norm(x_new, k);
-
+        stop = high_resolution_clock::now();
+        duration = duration_cast<microseconds>(stop - start);
+        // std::cout << "Time max and norm " << duration.count() << std::endl;
         
         if (norm > 0) {
             x_new /= norm;
@@ -133,14 +146,27 @@ void GkCLIPPER::h_eigenvalue_rayleigh(
             exit(1);
         }
 
+        // Desired accuracy reached by gradient ascent
+        start = high_resolution_clock::now();
         if (abs(rayleigh_quotient(M, x_new, k) - rayleigh_quotient(M, x, k)) < tol) {
             converged_flag = true;
             break;
         }
-
+        stop = high_resolution_clock::now();
+        duration = duration_cast<microseconds>(stop - start);
+        // std::cout << "Time converge check " << duration.count() << std::endl;
         // cout << endl;
         // cout << "\nx old " << x << endl;
         x = x_new;
+
+        // deltaF = Fnew - F;    // change in objective value
+
+        // if (deltaF < -params_.eps) {
+        //   // objective value decreased---we need to backtrack, so reduce step size
+        //   alpha = alpha * params_.beta;
+        // } else {
+        //   break; // obj value increased, stop line search
+        // }
 
         // cout << "grad " << grad << endl;
         // cout << "rayleigh " << std::fixed << std::setprecision(15) << f_x << endl;
@@ -152,6 +178,143 @@ void GkCLIPPER::h_eigenvalue_rayleigh(
     // Save final results
     rho = rayleigh_quotient(M, x, k);  // Spectral radius
     u = x;      // Corresponding eigenvector
+    
+    // cout << "u final " << u << endl;
+    // cout << "rho final " << rho << endl;
+    // exit(1);
+
+    // if (converged_flag) {
+    //     cout << "\nH Rayleigh Converged" << endl;
+    // } else {
+    //     cout << "\nH Rayleigh Not Converged" << endl;
+    // }
+
+}
+
+// H-eigenvalue computation
+void GkCLIPPER::h_eigenvalue_rayleigh_Fastor(
+    std::vector<double> x_init,
+    double d,
+    int max_iter,
+    double tol,
+    double step_size,
+    double alpha,
+    double beta
+) {
+    bool converged_flag = false;
+
+    std::vector<double> vec(n); 
+
+    if (x_init.empty()) {
+        // Create a random number generator
+        std::random_device rd; 
+        std::mt19937 gen(rd()); 
+        std::uniform_real_distribution<double> dis(0.0, 1.0); // Adjust range as needed
+
+        // Fill the vector with random doubles
+        for (int i = 0; i < n; ++i) {
+            vec[i] = dis(gen);
+        }
+        cout << "random x_init" << endl;
+    } else {
+        vec = x_init;
+        cout << "use x_init " << endl;
+    }
+
+    // auto x = createFastorTensor<double, 2>(vec);
+    cout << endl;
+
+    // auto x = initializeTensor<double, n>(x_init);
+    // std::cout << "Final tensor: " << x << std::endl;
+
+    // exit(1);
+
+    // x = xt::ones<double>({n}); 
+
+    // x =SingleValueTensor<double, n> a(1.0); // TODO delete!
+
+    // x = xt::maximum(x, 0.0);
+    // double norm = calculate_k_norm(x, k);
+    // x /= norm;
+
+    // xt::xarray<double> C = M;
+    // xt::xarray<double> Md = M + d*C;
+
+    // double f_x; 
+
+    // for (int iter = 0; iter < max_iter; ++iter) {
+    //     // cout << "\neigenval iters " << iter << endl;
+
+    //     // Gradient at the current point
+    //     auto start = high_resolution_clock::now();
+    //     auto grad = gradient(Md, x, k, d);
+    //     // cout << "grad " << grad << endl;
+    //     auto stop = high_resolution_clock::now();
+    //     auto duration = duration_cast<microseconds>(stop - start);
+    //     // std::cout << "Time grad " << duration.count() << std::endl;
+
+    //     // Backtracking line search to find step size
+    //     double t = 1.0; // Initial step size
+    //     start = high_resolution_clock::now();
+    //     f_x = rayleigh_quotient(M, x, k);
+    //     stop = high_resolution_clock::now();
+    //     duration = duration_cast<microseconds>(stop - start);
+    //     // std::cout << "Time rayleigh " << duration.count() << std::endl;
+
+    //     while (rayleigh_quotient(M, x + t * grad, k) < f_x + alpha * t * xt::sum(grad * grad)()) {
+    //         t *= beta;
+    //     }
+
+    //     // cout << "step size " << t << endl;
+    //     // Update x using the computed step size. TODO use backtracking or not? t * grad vs alpha * grad
+    //     start = high_resolution_clock::now();
+    //     xt::xarray<double> x_new = x + t * grad;
+    //     x_new = xt::maximum(x_new, 0.0);        // project onto positive orthant
+    //     // cout << "x new " << x_new << endl;
+    //     norm = calculate_k_norm(x_new, k);
+    //     stop = high_resolution_clock::now();
+    //     duration = duration_cast<microseconds>(stop - start);
+    //     // std::cout << "Time max and norm " << duration.count() << std::endl;
+        
+    //     if (norm > 0) {
+    //         x_new /= norm;
+    //     } else {
+    //         cerr << "Cannot normalize!" << endl;
+    //         exit(1);
+    //     }
+
+    //     // Desired accuracy reached by gradient ascent
+    //     start = high_resolution_clock::now();
+    //     if (abs(rayleigh_quotient(M, x_new, k) - rayleigh_quotient(M, x, k)) < tol) {
+    //         converged_flag = true;
+    //         break;
+    //     }
+    //     stop = high_resolution_clock::now();
+    //     duration = duration_cast<microseconds>(stop - start);
+    //     // std::cout << "Time converge check " << duration.count() << std::endl;
+    //     // cout << endl;
+    //     // cout << "\nx old " << x << endl;
+    //     x = x_new;
+
+    //     // deltaF = Fnew - F;    // change in objective value
+
+    //     // if (deltaF < -params_.eps) {
+    //     //   // objective value decreased---we need to backtrack, so reduce step size
+    //     //   alpha = alpha * params_.beta;
+    //     // } else {
+    //     //   break; // obj value increased, stop line search
+    //     // }
+
+    //     // cout << "grad " << grad << endl;
+    //     // cout << "rayleigh " << std::fixed << std::setprecision(15) << f_x << endl;
+    //     // cout << "k norm " << norm << endl;
+    //     // cout << "x new " << x_new << endl;
+    //     // cout << "next x old " << x << endl;
+    // }
+
+    // Save final results
+    // rho = rayleigh_quotient(M, x, k);  // Spectral radius
+    // u = x;      // Corresponding eigenvector
     
     // cout << "u final " << u << endl;
     // cout << "rho final " << rho << endl;
@@ -193,6 +356,11 @@ double GkCLIPPER::get_new_d(const xt::xarray<double>& u, const xt::xarray<double
     // Calculate Cbu
     auto ones = xt::ones_like(u);
     auto Cbu = ones * xt::sum(u)() - tensor_contract(C, u, k - 1) - u;
+    // cout << "Cbu " << Cbu << endl;
+    // cout << "u " << u << endl;
+    // cout << "sum " << ones * xt::sum(u)() << endl;
+    // cout << "contract " << tensor_contract(C, u, k - 1) << endl;
+    // exit(1);
 
     // Calculate idxD as a boolean mask
     auto idxD = (Cbu > eps) & (u > eps);
@@ -227,19 +395,22 @@ void GkCLIPPER::solve()
     xt::xarray<double> C = M;
 
     // Get inital value of u
+    auto start = high_resolution_clock::now();
     h_eigenvalue_rayleigh();
+    auto stop = high_resolution_clock::now();
+    auto duration = duration_cast<microseconds>(stop - start);
+    // std::cout << "Time first rayleigh " << duration.count() << std::endl;
+    // exit(1);
 
     double d = get_new_d(u, C, M, 0);
-
-
     auto ones = xt::ones_like(u);
 
     for (int i = 0; i < max_iter; ++i) {
-        // cout << "iters " << i << endl;
         if (std::isnan(d)) {
             // cout << "d is None" << endl;
             break;
         } else {
+            // cout << "INITING X " << u << "  NEW PENATLY " << d << endl;
             h_eigenvalue_rayleigh(u, d);
 
             double upper_bound = rho / std::tgamma(k + 1) + k;
@@ -261,6 +432,7 @@ void GkCLIPPER::solve()
                 d = d_temp;
             }
         }
+        cout << "solve iters " << i << endl;
     }
 
 

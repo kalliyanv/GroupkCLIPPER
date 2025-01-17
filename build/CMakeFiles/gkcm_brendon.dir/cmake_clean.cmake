@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.o"
+  "CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.o.d"
   "CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o"
+  "CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o.d"
   "gkcm_brendon"
   "gkcm_brendon.pdb"
 )

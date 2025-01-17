@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-subbuild/CMakeFiles/scs-populate"
+		},
+		{
+			"file" : "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-subbuild/CMakeFiles/scs-populate.rule"
+		},
+		{
+			"file" : "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-subbuild/CMakeFiles/scs-populate-complete.rule"
+		},
+		{
+			"file" : "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-subbuild/scs-populate-prefix/src/scs-populate-stamp/scs-populate-build.rule"
+		},
+		{
+			"file" : "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-subbuild/scs-populate-prefix/src/scs-populate-stamp/scs-populate-configure.rule"
+		},
+		{
+			"file" : "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-subbuild/scs-populate-prefix/src/scs-populate-stamp/scs-populate-download.rule"
+		},
+		{
+			"file" : "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-subbuild/scs-populate-prefix/src/scs-populate-stamp/scs-populate-install.rule"
+		},
+		{
+			"file" : "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-subbuild/scs-populate-prefix/src/scs-populate-stamp/scs-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-subbuild/scs-populate-prefix/src/scs-populate-stamp/scs-populate-patch.rule"
+		},
+		{
+			"file" : "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-subbuild/scs-populate-prefix/src/scs-populate-stamp/scs-populate-test.rule"
+		},
+		{
+			"file" : "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-subbuild/scs-populate-prefix/src/scs-populate-stamp/scs-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"scs-populate"
+		],
+		"name" : "scs-populate"
+	}
+}

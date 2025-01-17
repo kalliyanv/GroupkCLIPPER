@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "/home/kalliyanlay/Documents/BYU/research/clipper/build/bindings/python",
+		"source" : "/home/kalliyanlay/Documents/BYU/research/clipper/src/bindings/python"
+	}
+}
