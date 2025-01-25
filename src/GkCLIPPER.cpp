@@ -94,7 +94,7 @@ void GkCLIPPER::h_eigenvalue_rayleigh(
         x = x_init;
     }
 
-    x = xt::ones<double>({n}); // TODO delete!
+    // x = xt::ones<double>({n}); // TODO delete!
 
     x = xt::maximum(x, 0.0);
     double norm = calculate_k_norm(x, k);
@@ -215,10 +215,10 @@ void GkCLIPPER::h_eigenvalue_rayleigh_Fastor(
         for (int i = 0; i < n; ++i) {
             vec[i] = dis(gen);
         }
-        cout << "random x_init" << endl;
+        // cout << "random x_init" << endl;
     } else {
         vec = x_init;
-        cout << "use x_init " << endl;
+        // cout << "use x_init " << endl;
     }
 
     // auto x = createFastorTensor<double, 2>(vec);
@@ -432,7 +432,7 @@ void GkCLIPPER::solve()
                 d = d_temp;
             }
         }
-        cout << "solve iters " << i << endl;
+        // cout << "solve iters " << i << endl;
     }
 
 
