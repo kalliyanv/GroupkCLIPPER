@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/norm_example.dir/src/temp.cpp.o -o norm_example  -Wl,-rpath,/usr/local/lib /usr/local/lib/libopenblas.so -lpthread -lm -ldl /usr/local/lib/libopenblas.so -lpthread -lm -ldl

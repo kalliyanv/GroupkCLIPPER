@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/_deps/pmc-subbuild/CMakeFiles/pmc-populate"
+		},
+		{
+			"file" : "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/_deps/pmc-subbuild/CMakeFiles/pmc-populate.rule"
+		},
+		{
+			"file" : "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/_deps/pmc-subbuild/CMakeFiles/pmc-populate-complete.rule"
+		},
+		{
+			"file" : "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/_deps/pmc-subbuild/pmc-populate-prefix/src/pmc-populate-stamp/pmc-populate-build.rule"
+		},
+		{
+			"file" : "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/_deps/pmc-subbuild/pmc-populate-prefix/src/pmc-populate-stamp/pmc-populate-configure.rule"
+		},
+		{
+			"file" : "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/_deps/pmc-subbuild/pmc-populate-prefix/src/pmc-populate-stamp/pmc-populate-download.rule"
+		},
+		{
+			"file" : "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/_deps/pmc-subbuild/pmc-populate-prefix/src/pmc-populate-stamp/pmc-populate-install.rule"
+		},
+		{
+			"file" : "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/_deps/pmc-subbuild/pmc-populate-prefix/src/pmc-populate-stamp/pmc-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/_deps/pmc-subbuild/pmc-populate-prefix/src/pmc-populate-stamp/pmc-populate-patch.rule"
+		},
+		{
+			"file" : "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/_deps/pmc-subbuild/pmc-populate-prefix/src/pmc-populate-stamp/pmc-populate-test.rule"
+		},
+		{
+			"file" : "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/_deps/pmc-subbuild/pmc-populate-prefix/src/pmc-populate-stamp/pmc-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pmc-populate"
+		],
+		"name" : "pmc-populate"
+	}
+}

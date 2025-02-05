@@ -11,6 +11,12 @@
 
 #include "GkCLIPPER.h"
 
+
+
+#include <iostream>
+#include <xtensor/xarray.hpp>
+#include <xtensor-blas/xlinalg.hpp>
+
 // Example from Brendon's code src/gen_max_clique_tests/max_clique_exact_tests.cpp
 
 // Function to generate permutations of a vector
@@ -31,28 +37,126 @@ void add_edges_from_tensor(const xt::xarray<int>& tensor, GMC::KUniformHypergrap
 
 
 int main() {
+    // xt::random::seed(0);
 
     auto start = high_resolution_clock::now();
     auto stop = high_resolution_clock::now();
     auto duration = duration_cast<microseconds>(stop - start);
 
-    // -------------9 node 4d example: Different sized cliques, one max clique-------------
+    // // -------------9 node 4d example: Same sized clique, different weights-------------
 
-    // Initialize a 4D tensor M with zeros using xtensor
-    const int n_set = 9;
-    const int k_set = 4;
-    xt::xarray<double> M = xt::zeros<double>({n_set, n_set, n_set, n_set});
+    // // Initialize a 4D tensor M with zeros using xtensor
+    // const int n_set = 9;
+    // const int k_set = 4;
+    // xt::xarray<double> M = xt::zeros<double>({n_set, n_set, n_set, n_set});
 
-    // Map to track occurrences of sorted indices
-    std::map<std::array<int, 4>, int> x_tracker;
+    // // Map to track occurrences of sorted indices
+    // std::map<std::array<int, 4>, int> x_tracker;
 
-    // Generate permutations for [0, 1, 2, 3, 4] taken 4 at a time
-    std::vector<int> set1 = {0, 1, 2, 3, 4};
+    // // Generate permutations for [0, 1, 2, 3, 4] taken 4 at a time
+    // std::vector<int> set1 = {0, 1, 2, 3, 4};
+    // std::vector<std::vector<int>> idxs;
+    // generatePermutations(set1, k_set, idxs);
+
+    // // Make graph
+    // GMC::KUniformHypergraph<int> graph(k_set);
+    // graph.add_nodes({0, 1, 2, 3, 4, 5, 6, 7, 8});
+
+    // for (const auto& idx : idxs) {
+    //     std::array<int, 4> key = {idx[0], idx[1], idx[2], idx[3]};
+    //     std::sort(key.begin(), key.end());
+
+    //     if (x_tracker.find(key) != x_tracker.end()) {
+    //         x_tracker[key]++;
+    //     } else {
+    //         x_tracker[key] = 0;
+    //     }
+    //     M(idx[0], idx[1], idx[2], idx[3]) = 0.5;
+    //     graph.add_edge(idx);
+    // }
+
+    // // Generate permutations for [5, 6, 7, 8] taken 4 at a time
+    // std::vector<int> set2 = {4, 5, 6, 7, 8};
+    // idxs.clear();
+    // generatePermutations(set2, k_set, idxs);
+
+    // for (const auto& idx : idxs) {
+    //     std::array<int, 4> key = {idx[0], idx[1], idx[2], idx[3]};
+    //     std::sort(key.begin(), key.end());
+
+    //     if (x_tracker.find(key) != x_tracker.end()) {
+    //         x_tracker[key]++;
+    //     } else {
+    //         x_tracker[key] = 0;
+    //     }
+
+    //     M(idx[0], idx[1], idx[2], idx[3]) = 1.0;
+    //     graph.add_edge(idx);
+    // }
+
+    // // Normalize M by dividing by the maximum value in M
+    // double max_value = xt::amax(M)();
+    // M /= max_value;
+
+    // // Set identity on the diagonal
+    // for (int i = 0; i < n_set; ++i) {
+    //     M(i, i, i, i) = 1.0;
+    // }
+    
+
+    // cout << "Done making M "<<  xt::view(M, 0, 1, xt::all(), xt::all()) << endl;
+
+    // -------------Generalized Example-------------
+
+    // For randomized
+    std::random_device rd;
+    std::default_random_engine rng(rd());
+
+    // Init matrix and params
+    const int num_nodes = 10;
+    const int k = 2;
+    int max_clique_size = 5;
+    std::vector<int> clique_sizes = {5, 5};
+    std::vector<double> weights = {1.0, 1.0};
+
+    // Init graph
+    GMC::KUniformHypergraph<int> graph(k);
+    std::vector<int> nodes;
+    for(int i=0;i<num_nodes;i++)
+    {
+        nodes.push_back(i);
+        graph.add_node(i);
+    }
+
+    // Create max clique
+    std::vector<int> max_clique;
+    std::shuffle(nodes.begin(), nodes.end(), std::default_random_engine(rng));
+    for(int i=0;i<max_clique_size; i++)
+    {
+        max_clique.push_back(nodes[i]);
+    }
+
+    cout << "Actual max clique: " << endl;
+    for(auto node : max_clique) {
+        cout << node << " ";
+    }
+    cout << endl;
+
+    auto clique_edges = GMC::combinations_of_size(max_clique, k);
+    for( auto e : clique_edges )
+    {
+        graph.add_edge(e);
+    }
+
+    // Add clique to matrix
+    xt::xarray<double> M = xt::zeros<double>({num_nodes, num_nodes});
+    std::map<std::array<int, k>, int> x_tracker;
     std::vector<std::vector<int>> idxs;
-    generatePermutations(set1, k_set, idxs);
+    generatePermutations(max_clique, k, idxs);
 
+    // Add clique edges to matrix 
     for (const auto& idx : idxs) {
-        std::array<int, 4> key = {idx[0], idx[1], idx[2], idx[3]};
+        std::array<int, k> key = {idx[0], idx[1]};
         std::sort(key.begin(), key.end());
 
         if (x_tracker.find(key) != x_tracker.end()) {
@@ -60,44 +164,52 @@ int main() {
         } else {
             x_tracker[key] = 0;
         }
-        M(idx[0], idx[1], idx[2], idx[3]) = 1.0;
+        M(idx[0], idx[1]) = 1.0;
     }
+    
+    // Add random edges
+    auto all_edges = GMC::combinations_of_size(nodes, k, true);
+    std::shuffle(all_edges.begin(), all_edges.end(), std::default_random_engine(rng));
 
-    // Generate permutations for [5, 6, 7, 8] taken 4 at a time
-    std::vector<int> set2 = {5, 6, 7, 8};
-    idxs.clear();
-    generatePermutations(set2, k_set, idxs);
+    double density = 0.9;
+    std::vector< std::vector<int> > added_edges;
+    for(int i=0; i < density*all_edges.size();i++)
+    {
+        added_edges.push_back(all_edges[i]);
 
-    for (const auto& idx : idxs) {
-        std::array<int, 4> key = {idx[0], idx[1], idx[2], idx[3]};
-        std::sort(key.begin(), key.end());
+        // Add random edges to matrix
+        std::vector<std::vector<int>> idxs_rand_edges;
+        std::map<std::array<int, k>, int> x_tracker_rand_edges;
+        generatePermutations(all_edges[i], k, idxs_rand_edges);
 
-        if (x_tracker.find(key) != x_tracker.end()) {
-            x_tracker[key]++;
-        } else {
-            x_tracker[key] = 0;
+        for (const auto& idx : idxs_rand_edges) {
+            std::array<int, k> key = {idx[0], idx[1]};
+            std::sort(key.begin(), key.end());
+
+            if (x_tracker_rand_edges.find(key) != x_tracker_rand_edges.end()) {
+                x_tracker_rand_edges[key]++;
+            } else {
+                x_tracker_rand_edges[key] = 0;
+            }
+            M(idx[0], idx[1]) = 1.0;
         }
-
-        M(idx[0], idx[1], idx[2], idx[3]) = 1.0;
     }
+
+    graph.add_edges(added_edges);
+
+
 
     // Normalize M by dividing by the maximum value in M
     double max_value = xt::amax(M)();
     M /= max_value;
 
     // Set identity on the diagonal
-    for (int i = 0; i < n_set; ++i) {
-        M(i, i, i, i) = 1.0;
+    for (int i = 0; i < num_nodes; ++i) {
+        M(i, i) = 1.0;
     }
-    
 
-    // cout << "Done making M "<<  xt::view(M, 0, 1, xt::all(), xt::all()) << endl;
-
-    // Make graph
-    GMC::KUniformHypergraph<int> graph(k_set);
-    graph.add_nodes({0, 1, 2, 3, 4, 5, 6, 7, 8});
-    graph.add_edge({0, 1, 2, 3, 4});
-    // add_edges_from_tensor(M, graph, k_set);
+    cout << "M" << endl << M << endl;
+    // exit(1);
 
     // // -------------9 node 4d example: Same sized cliques, different weights-------------
     // // Initialize a 4D tensor M with zeros using xtensor
@@ -382,7 +494,7 @@ int main() {
     // stop = high_resolution_clock::now();
     // duration = duration_cast<microseconds>(stop - start);
     // auto inliers = clipper.getSelectedAssociations();
-    // cout << "Clipper inliers " << inliers << endl; 
+    // // cout << "Clipper inliers " << inliers << endl; 
     // cout << "Clipper time sec " << duration.count()*1e-6 << endl << endl;
 
     // // ------------GKCM--------------
@@ -431,17 +543,14 @@ int main() {
     duration = duration_cast<microseconds>(stop - start);
     std::cout << "Time exact sec " << duration.count() * 1e-6 << std::endl << std::endl;
 
-    // ----------------------------GkCLIPPER----------------------------
+    // // ----------------------------GkCLIPPER----------------------------
     // TODO: init properly
-    size_t k = M.dimension();                       // Tensor order
+    // size_t k = M.dimension();                       // Tensor order
     double n_temp = pow(M.size(), 1.0/k);           // Weird casting issues when type size_t, use temp double
     size_t n = static_cast< float > (n_temp);
 
     cout << "\nGkCLIPPER" << endl;
     GkCLIPPER gkclipper(n, k, M);
-
-    // Test Fastor functions
-    gkclipper.h_eigenvalue_rayleigh_Fastor();
 
     cout << "\nbegin solve" << endl;
     start = high_resolution_clock::now();
@@ -449,10 +558,11 @@ int main() {
     stop = high_resolution_clock::now();
     cout << "end solve" << endl;
 
-    int upper_bound = static_cast<int>(std::round(gkclipper.rho / std::tgamma(k + 1) + k));
+    int upper_bound = static_cast<int>(std::round(gkclipper.rho));//static_cast<int>(std::round(gkclipper.rho / std::tgamma(k + 1) + k));
     cout << "\nFinal spectral radius: " << gkclipper.rho << endl;
-    cout << "Final clique number upper bound: " << gkclipper.rho / std::tgamma(k + 1) + k << ", " << upper_bound << endl;
-    cout << "Final eigenvector: " << gkclipper.u << endl;
+    // cout << "Final clique number upper bound: " << gkclipper.rho / std::tgamma(k + 1) + k << ", " << upper_bound << endl;
+    cout << "Upper bound " << upper_bound << endl;
+    // cout << "Final eigenvector: " << gkclipper.u << endl;
     cout << "Densest clique: " << gkclipper.get_top_n_indices(gkclipper.u, upper_bound) << endl;
     cout << "done" << endl << endl;
     duration = duration_cast<microseconds>(stop - start);

@@ -692,6 +692,8 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: \
  /usr/local/include/xtensor/xmath.hpp \
  /usr/local/include/xtensor/xview.hpp /usr/local/include/xtensor/xio.hpp \
  /usr/include/c++/9/iomanip /usr/include/c++/9/bits/quoted_string.h \
+ /usr/local/include/xtensor/xnoalias.hpp \
+ /usr/local/include/xtensor/xtensor.hpp \
  /usr/local/include/xtensor-blas/xlinalg.hpp \
  /usr/local/include/xtensor-blas/xtensor/xarray.hpp \
  /usr/local/include/xtensor-blas/xtensor/xcomplex.hpp \

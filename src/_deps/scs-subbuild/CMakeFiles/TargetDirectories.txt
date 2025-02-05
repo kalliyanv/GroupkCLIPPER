@@ -1,0 +1,3 @@
+/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/_deps/scs-subbuild/CMakeFiles/scs-populate.dir
+/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/_deps/scs-subbuild/CMakeFiles/edit_cache.dir
+/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/_deps/scs-subbuild/CMakeFiles/rebuild_cache.dir

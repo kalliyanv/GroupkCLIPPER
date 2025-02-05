@@ -1,18 +1,6 @@
 [
 {
   "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build",
-  "command": "/usr/bin/g++  -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -g -std=gnu++17 -o CMakeFiles/GroupkCLIPPER.dir/src/main.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/main.cpp",
-  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/main.cpp",
-  "output": "CMakeFiles/GroupkCLIPPER.dir/src/main.cpp.o"
-},
-{
-  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build",
-  "command": "/usr/bin/g++  -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -g -std=gnu++17 -o CMakeFiles/GroupkCLIPPER.dir/src/GkCLIPPER.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/GkCLIPPER.cpp",
-  "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/GkCLIPPER.cpp",
-  "output": "CMakeFiles/GroupkCLIPPER.dir/src/GkCLIPPER.cpp.o"
-},
-{
-  "directory": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build",
   "command": "/usr/bin/g++ -DCLIPPER_HAS_PMC -DCLIPPER_HAS_SCS -DCLIPPER_VERSION=\\\"0.2.4\\\" -I/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/include -I/home/kalliyanlay/Documents/BYU/research/clipper/src/include -isystem /usr/include/eigen3 -g -std=gnu++17 -march=native -mavx -mfma -o CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/gkcm_test.cpp",
   "file": "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/gkcm_test.cpp",
   "output": "CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o"

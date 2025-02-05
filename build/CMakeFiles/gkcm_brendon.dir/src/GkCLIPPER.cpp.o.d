@@ -298,6 +298,8 @@ CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.o: \
  /usr/include/c++/9/bits/locale_facets_nonio.tcc \
  /usr/include/c++/9/bits/locale_conv.h \
  /usr/include/c++/9/bits/quoted_string.h \
+ /usr/local/include/xtensor/xnoalias.hpp \
+ /usr/local/include/xtensor/xtensor.hpp \
  /usr/local/include/xtensor-blas/xlinalg.hpp \
  /usr/local/include/xtensor-blas/xtensor/xarray.hpp \
  /usr/local/include/xtensor-blas/xtensor/xcomplex.hpp \

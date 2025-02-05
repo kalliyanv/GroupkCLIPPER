@@ -21,16 +21,7 @@ BLAS_flexiblas_LIBRARY:FILEPATH=BLAS_flexiblas_LIBRARY-NOTFOUND
 BLAS_goto2_LIBRARY:FILEPATH=BLAS_goto2_LIBRARY-NOTFOUND
 
 //Path to a library.
-BLAS_guide_LIBRARY:FILEPATH=BLAS_guide_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_iomp5_LIBRARY:FILEPATH=/home/kalliyanlay/anaconda3/lib/libiomp5.so
-
-//Path to a library.
 BLAS_mkl_LIBRARY:FILEPATH=BLAS_mkl_LIBRARY-NOTFOUND
-
-//Path to a library.
-BLAS_mkl_core_LIBRARY:FILEPATH=/home/kalliyanlay/anaconda3/lib/libmkl_core.so
 
 //Path to a library.
 BLAS_mkl_em64t_LIBRARY:FILEPATH=BLAS_mkl_em64t_LIBRARY-NOTFOUND
@@ -42,10 +33,7 @@ BLAS_mkl_ia32_LIBRARY:FILEPATH=BLAS_mkl_ia32_LIBRARY-NOTFOUND
 BLAS_mkl_intel_LIBRARY:FILEPATH=BLAS_mkl_intel_LIBRARY-NOTFOUND
 
 //Path to a library.
-BLAS_mkl_intel_lp64_LIBRARY:FILEPATH=/home/kalliyanlay/anaconda3/lib/libmkl_intel_lp64.so
-
-//Path to a library.
-BLAS_mkl_intel_thread_LIBRARY:FILEPATH=/home/kalliyanlay/anaconda3/lib/libmkl_intel_thread.so
+BLAS_mkl_intel_lp64_LIBRARY:FILEPATH=BLAS_mkl_intel_lp64_LIBRARY-NOTFOUND
 
 //Path to a library.
 BLAS_mkl_rt_LIBRARY:FILEPATH=BLAS_mkl_rt_LIBRARY-NOTFOUND
@@ -62,9 +50,6 @@ BUILD_SHARED_LIBS:BOOL=ON
 BUILD_TESTING:BOOL=OFF
 
 BUILD_TESTS:BOOL=OFF
-
-//Path to a library.
-CBLAS_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libcblas.so
 
 //Build benchmarks
 CLIPPER_BUILD_BENCHMARKS:BOOL=OFF
@@ -415,12 +400,6 @@ NO_PRINTING:BOOL=OFF
 //Disables all read/write functionality
 NO_READ_WRITE:BOOL=OFF
 
-//Path to a library.
-OPENBLAS_LIBRARY:FILEPATH=/usr/local/lib/libopenblas.so
-
-//The directory containing a CMake configuration file for OpenBLAS.
-OpenBLAS_DIR:PATH=/usr/local/lib/cmake/openblas
-
 //CXX compiler flags for OpenMP parallelization
 OpenMP_CXX_FLAGS:STRING=-fopenmp
 
@@ -467,6 +446,18 @@ PYTHON_LIBRARY:FILEPATH=/home/kalliyanlay/anaconda3/lib/libpython3.8.so
 //Use single precision floats rather than doubles
 SFLOAT:BOOL=OFF
 
+//The directory containing a CMake configuration file for TBB.
+TBB_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/TBB
+
+//Value Computed by CMake
+XtensorNormExample_BINARY_DIR:STATIC=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build
+
+//Value Computed by CMake
+XtensorNormExample_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+XtensorNormExample_SOURCE_DIR:STATIC=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER
+
 //Value Computed by CMake
 clipper_BINARY_DIR:STATIC=/home/kalliyanlay/Documents/BYU/research/clipper/build
 
@@ -512,8 +503,17 @@ scsdir_LIB_DEPENDS:STATIC=general;m;general;blas;general;lapack;
 //Dependencies for the target
 scsindir_LIB_DEPENDS:STATIC=general;m;general;blas;general;lapack;
 
+//The directory containing a CMake configuration file for xsimd.
+xsimd_DIR:PATH=xsimd_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for xtensor-blas.
 xtensor-blas_DIR:PATH=/usr/local/lib/cmake/xtensor-blas
+
+//The directory containing a CMake configuration file for xtensor.
+xtensor_DIR:PATH=/usr/local/share/cmake/xtensor
+
+//The directory containing a CMake configuration file for xtl.
+xtl_DIR:PATH=/usr/local/share/cmake/xtl
 
 
 ########################
@@ -526,14 +526,8 @@ BLAS_WORKS:INTERNAL=
 BLAS_flexiblas_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BLAS_goto2_LIBRARY
 BLAS_goto2_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_guide_LIBRARY
-BLAS_guide_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_iomp5_LIBRARY
-BLAS_iomp5_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BLAS_mkl_LIBRARY
 BLAS_mkl_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: BLAS_mkl_core_LIBRARY
-BLAS_mkl_core_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BLAS_mkl_em64t_LIBRARY
 BLAS_mkl_em64t_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BLAS_mkl_ia32_LIBRARY
@@ -542,10 +536,6 @@ BLAS_mkl_ia32_LIBRARY-ADVANCED:INTERNAL=1
 BLAS_mkl_intel_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BLAS_mkl_intel_lp64_LIBRARY
 BLAS_mkl_intel_lp64_LIBRARY-ADVANCED:INTERNAL=1
-//Have function sgemm_
-BLAS_mkl_intel_lp64_deps_mkl_intel_thread_deps_mkl_core_deps_iomp5_deps_WORKS:INTERNAL=1
-//ADVANCED property for variable: BLAS_mkl_intel_thread_LIBRARY
-BLAS_mkl_intel_thread_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BLAS_mkl_rt_LIBRARY
 BLAS_mkl_rt_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: BLAS_openblas_LIBRARY
@@ -738,9 +728,9 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding BLAS
-FIND_PACKAGE_MESSAGE_DETAILS_BLAS:INTERNAL=[/home/kalliyanlay/anaconda3/lib/libmkl_intel_lp64.so;/home/kalliyanlay/anaconda3/lib/libmkl_intel_thread.so;/home/kalliyanlay/anaconda3/lib/libmkl_core.so;/home/kalliyanlay/anaconda3/lib/libiomp5.so;-lpthread;-lm;-ldl][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_BLAS:INTERNAL=[/usr/local/lib/libopenblas.so][v()]
 //Details about finding LAPACK
-FIND_PACKAGE_MESSAGE_DETAILS_LAPACK:INTERNAL=[/home/kalliyanlay/anaconda3/lib/libmkl_intel_lp64.so;/home/kalliyanlay/anaconda3/lib/libmkl_intel_thread.so;/home/kalliyanlay/anaconda3/lib/libmkl_core.so;/home/kalliyanlay/anaconda3/lib/libiomp5.so;-lpthread;-lm;-ldl;-lpthread;-lm;-ldl][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_LAPACK:INTERNAL=[/usr/local/lib/libopenblas.so;-lpthread;-lm;-ldl][v()]
 //Details about finding OpenMP
 FIND_PACKAGE_MESSAGE_DETAILS_OpenMP:INTERNAL=[TRUE][TRUE][c ][v4.5()]
 //Details about finding OpenMP_C
@@ -806,6 +796,8 @@ _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
 _Python:INTERNAL=PYTHON
+//Test arch_native_supported
+arch_native_supported:INTERNAL=1
 //True if pybind11 and all required components found on the system
 pybind11_FOUND:INTERNAL=TRUE
 //Directory where pybind11 headers are located

@@ -1,9 +1,9 @@
-# import numpy as np
-# import cvxpy as cp
-# from ncpol2sdpa import generate_variables, SdpRelaxation
-# from itertools import permutations, combinations
-# import math
-# import time
+import numpy as np
+import cvxpy as cp
+from ncpol2sdpa import generate_variables, SdpRelaxation
+from itertools import permutations, combinations
+import math
+import time
 
 # np.random.seed(800) # Different clique sizes do not converge correctly
 # # np.random.seed(0) 
@@ -562,21 +562,21 @@
 # # for i in range(n):
 # #     M[i, i, i, i] = 1
 
-# #-------------------------------
-# # # From CLIPPER example
-# # n =12
-# # M = np.array([[1., 0., 0., 0., 1., 0., 0., 0., 1., 0., 0., 0.],
-# #  [0., 1., 0., 1., 0., 0., 0., 0., 0., 0., 0., 0.],
-# #  [0., 0., 1., 0., 0., 0., 1., 0., 0., 0., 0., 0.],
-# #  [0., 1., 0., 1., 0., 0., 0., 0., 0., 0., 1., 0.],
-# #  [1., 0., 0., 0., 1., 0., 0., 0., 1., 1., 0., 0.],
-# #  [0., 0., 0., 0., 0., 1., 0., 1., 0., 0., 0., 0.],
-# #  [0., 0., 1., 0., 0., 0., 1., 0., 0., 0., 0., 0.],
-# #  [0., 0., 0., 0., 0., 1., 0., 1., 0., 0., 0., 0.],
-# #  [1., 0., 0., 0., 1., 0., 0., 0., 1., 0., 0., 0.],
-# #  [0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0., 0.],
-# #  [0., 0., 0., 1., 0., 0., 0., 0., 0., 0., 1., 0.],
-# #  [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 1.]])
+# -------------------------------
+# From CLIPPER example
+n =12
+M = np.array([[1., 0., 0., 0., 1., 0., 0., 0., 1., 0., 0., 0.],
+ [0., 1., 0., 1., 0., 0., 0., 0., 0., 0., 0., 0.],
+ [0., 0., 1., 0., 0., 0., 1., 0., 0., 0., 0., 0.],
+ [0., 1., 0., 1., 0., 0., 0., 0., 0., 0., 1., 0.],
+ [1., 0., 0., 0., 1., 0., 0., 0., 1., 1., 0., 0.],
+ [0., 0., 0., 0., 0., 1., 0., 1., 0., 0., 0., 0.],
+ [0., 0., 1., 0., 0., 0., 1., 0., 0., 0., 0., 0.],
+ [0., 0., 0., 0., 0., 1., 0., 1., 0., 0., 0., 0.],
+ [1., 0., 0., 0., 1., 0., 0., 0., 1., 0., 0., 0.],
+ [0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0., 0.],
+ [0., 0., 0., 1., 0., 0., 0., 0., 0., 0., 1., 0.],
+ [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 1.]])
 
 # # ---------------------------------------
 # # # From CLIPPER example
@@ -779,13 +779,13 @@
 # print("Tot time ", time_end - time_start)
 
 
-import numpy as np
-import cvxpy as cp
-from ncpol2sdpa import generate_variables, SdpRelaxation
-from itertools import permutations, combinations
-import math
+# import numpy as np
+# import cvxpy as cp
+# from ncpol2sdpa import generate_variables, SdpRelaxation
+# from itertools import permutations, combinations
+# import math
 
-np.random.seed(800) # Different clique sizes do not converge correctly
+# np.random.seed(800) # Different clique sizes do not converge correctly
 # np.random.seed(0) 
 
 def calculate_k_norm(x, k):
@@ -1277,35 +1277,35 @@ def get_new_d(u, C, M, d_prev, eps=1e-9):
 # for i in range(n):
 #     M[i, i, i, i] = 1
 #-------------------------------
-# Two max cliques, different weights
-n = 9
-M = np.zeros((n, n, n, n))
-idxs = permutations([0, 1, 2, 3, 4], 4)
-x_tracker = {}
-for idx in idxs:
-    key = tuple(sorted(list(idx)))
-    if key in x_tracker:
-        x_tracker[key]+=1
-    else:
-        x_tracker[key] = 0
-    idx = list(idx)
-    M[idx[0], idx[1], idx[2], idx[3]] = 0.5
+# # Two max cliques, different weights
+# n = 9
+# M = np.zeros((n, n, n, n))
+# idxs = permutations([0, 1, 2, 3, 4], 4)
+# x_tracker = {}
+# for idx in idxs:
+#     key = tuple(sorted(list(idx)))
+#     if key in x_tracker:
+#         x_tracker[key]+=1
+#     else:
+#         x_tracker[key] = 0
+#     idx = list(idx)
+#     M[idx[0], idx[1], idx[2], idx[3]] = 0.5
 
-idxs = permutations([4, 5, 6, 7, 8], 4)
-for idx in idxs:
-    key = tuple(sorted(list(idx)))
-    if key in x_tracker:
-        x_tracker[key]+=1
-    else:
-        x_tracker[key] = 0
-    idx = list(idx)
-    M[idx[0], idx[1], idx[2], idx[3]] = 2
+# idxs = permutations([4, 5, 6, 7, 8], 4)
+# for idx in idxs:
+#     key = tuple(sorted(list(idx)))
+#     if key in x_tracker:
+#         x_tracker[key]+=1
+#     else:
+#         x_tracker[key] = 0
+#     idx = list(idx)
+#     M[idx[0], idx[1], idx[2], idx[3]] = 2
 
-M /= np.max(M)
+# M /= np.max(M)
 
-# Identity on diagonal
-for i in range(n):
-    M[i, i, i, i] = 1
+# # Identity on diagonal
+# for i in range(n):
+#     M[i, i, i, i] = 1
 
 #-------------------------------
 # From CLIPPER example
@@ -1452,6 +1452,7 @@ rho = None
 # print(M)now
 # print(C)
 # exit()
+start_time = time.time()
 for i in range(2300):
     print("i", i)
 
@@ -1509,9 +1510,10 @@ for i in range(2300):
             break
         else:
             d = d_temp
-
+end_time = time.time()
 print("Final spectral radius:", rho)
 upper_bound = int(np.round(rho / math.factorial(k) + k))
 print("Final clique number upper bound:", rho / math.factorial(k) + k, upper_bound)
 print("Final eigenvector:", u)
 print("Densest clique:", get_top_n_indices(u, upper_bound))
+print("Time", end_time - start_time)

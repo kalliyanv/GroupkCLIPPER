@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/GroupkCLIPPER.dir/src/main.cpp.o CMakeFiles/GroupkCLIPPER.dir/src/GkCLIPPER.cpp.o -o GroupkCLIPPER   -L/usr/local/lib
+/usr/bin/g++ -g CMakeFiles/GroupkCLIPPER.dir/src/main.cpp.o CMakeFiles/GroupkCLIPPER.dir/src/GkCLIPPER.cpp.o -o GroupkCLIPPER

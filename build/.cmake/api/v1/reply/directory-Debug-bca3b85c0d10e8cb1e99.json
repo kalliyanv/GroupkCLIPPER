@@ -1,0 +1,119 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/home/kalliyanlay/Documents/BYU/research/clipper/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 161,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 166,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 168,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 182,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/home/kalliyanlay/Documents/BYU/research/clipper/build/libclipper.so.0.2.4"
+			],
+			"targetId" : "clipper::@f29b714fa109c354b8db",
+			"targetIndex" : 0,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/home/kalliyanlay/Documents/BYU/research/clipper/build/libclipper.so"
+			],
+			"targetId" : "clipper::@f29b714fa109c354b8db",
+			"targetIndex" : 0,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "/home/kalliyanlay/Documents/BYU/research/clipper/src/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/clipper",
+			"exportName" : "clipper-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "clipper::@f29b714fa109c354b8db",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"/home/kalliyanlay/Documents/BYU/research/clipper/build/CMakeFiles/Export/6a2542c6f247843146b836ba31795f12/clipper-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/clipper",
+			"paths" : 
+			[
+				"/home/kalliyanlay/Documents/BYU/research/clipper/build/clipper-config.cmake",
+				"/home/kalliyanlay/Documents/BYU/research/clipper/build/clipper-config-version.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "/home/kalliyanlay/Documents/BYU/research/clipper/build",
+		"source" : "/home/kalliyanlay/Documents/BYU/research/clipper/src"
+	}
+}

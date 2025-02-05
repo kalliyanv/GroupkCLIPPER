@@ -5,6 +5,8 @@
 #include <xtensor/xmath.hpp>
 #include <xtensor/xview.hpp>
 #include <xtensor/xio.hpp> 
+#include <xtensor/xnoalias.hpp>
+#include <xtensor/xtensor.hpp>
 
 #include <xtensor-blas/xlinalg.hpp>
 
@@ -54,7 +56,7 @@ class GkCLIPPER
 {
     public:
 
-        size_t n = 2;   // Number nodes in the graph
+        size_t n;   // Number nodes in the graph
         size_t k;   // Number nodes in an edge
 
         xt::xarray<double> M;
@@ -80,24 +82,13 @@ class GkCLIPPER
             xt::xarray<double> x_init = {},
             double d = 0.0,
             int max_iter = 10000, //10000,
-            double tol = 1e-6,
-            double step_size = 0.01,
-            double alpha = 1e-4,
-            double beta = 0.5
+            double tol = 1e-9,
+            double alpha = 1,
+            double beta = 0.25
         );
         void solve();
         xt::xarray<size_t> get_top_n_indices(const xt::xarray<double>& x, size_t omega);
 
-        // Fastor version of everything
-        void h_eigenvalue_rayleigh_Fastor(
-            std::vector<double> x_init = {},
-            double d = 0.0,
-            int max_iter = 10000, //10000,
-            double tol = 1e-6,
-            double step_size = 0.01,
-            double alpha = 1e-4,
-            double beta = 0.5
-        );
     private:
 
 };
