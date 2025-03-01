@@ -471,35 +471,35 @@ import time
 # # M[2, 2, 2, 0] = 1
 
 # #-------------------------------
-# # # # Different sized cliques, one max clique
-# # n = 9
-# # M = np.zeros((n, n, n, n))
-# # idxs = permutations([0, 1, 2, 3, 4], 4)
-# # x_tracker = {}
-# # for idx in idxs:
-# #     key = tuple(sorted(list(idx)))
-# #     if key in x_tracker:
-# #         x_tracker[key]+=1
-# #     else:
-# #         x_tracker[key] = 0
-# #     idx = list(idx)
-# #     M[idx[0], idx[1], idx[2], idx[3]] = 0.5
+# # Different sized cliques, one max clique
+n = 50
+M = np.zeros((n, n, n, n))
+idxs = permutations([0, 1, 2, 3, 4], 4)
+x_tracker = {}
+for idx in idxs:
+    key = tuple(sorted(list(idx)))
+    if key in x_tracker:
+        x_tracker[key]+=1
+    else:
+        x_tracker[key] = 0
+    idx = list(idx)
+    M[idx[0], idx[1], idx[2], idx[3]] = 0.5
 
-# # idxs = permutations([5, 6, 7, 8], 4)
-# # for idx in idxs:
-# #     key = tuple(sorted(list(idx)))
-# #     if key in x_tracker:
-# #         x_tracker[key]+=1
-# #     else:
-# #         x_tracker[key] = 0
-# #     idx = list(idx)
-# #     M[idx[0], idx[1], idx[2], idx[3]] = 0.5
+# idxs = permutations([5, 6, 7, 8], 4)
+# for idx in idxs:
+#     key = tuple(sorted(list(idx)))
+#     if key in x_tracker:
+#         x_tracker[key]+=1
+#     else:
+#         x_tracker[key] = 0
+#     idx = list(idx)
+#     M[idx[0], idx[1], idx[2], idx[3]] = 0.5
 
-# # M /= np.max(M)
+M /= np.max(M)
 
-# # # Identity on diagonal
-# # for i in range(n):
-# #     M[i, i, i, i] = 1
+# Identity on diagonal
+for i in range(n):
+    M[i, i, i, i] = 1
 # #-------------------------------
 # # Two max cliques, different weights
 # n = 9
@@ -563,20 +563,20 @@ import time
 # #     M[i, i, i, i] = 1
 
 # -------------------------------
-# From CLIPPER example
-n =12
-M = np.array([[1., 0., 0., 0., 1., 0., 0., 0., 1., 0., 0., 0.],
- [0., 1., 0., 1., 0., 0., 0., 0., 0., 0., 0., 0.],
- [0., 0., 1., 0., 0., 0., 1., 0., 0., 0., 0., 0.],
- [0., 1., 0., 1., 0., 0., 0., 0., 0., 0., 1., 0.],
- [1., 0., 0., 0., 1., 0., 0., 0., 1., 1., 0., 0.],
- [0., 0., 0., 0., 0., 1., 0., 1., 0., 0., 0., 0.],
- [0., 0., 1., 0., 0., 0., 1., 0., 0., 0., 0., 0.],
- [0., 0., 0., 0., 0., 1., 0., 1., 0., 0., 0., 0.],
- [1., 0., 0., 0., 1., 0., 0., 0., 1., 0., 0., 0.],
- [0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0., 0.],
- [0., 0., 0., 1., 0., 0., 0., 0., 0., 0., 1., 0.],
- [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 1.]])
+# # From CLIPPER example
+# n =12
+# M = np.array([[1., 0., 0., 0., 1., 0., 0., 0., 1., 0., 0., 0.],
+#  [0., 1., 0., 1., 0., 0., 0., 0., 0., 0., 0., 0.],
+#  [0., 0., 1., 0., 0., 0., 1., 0., 0., 0., 0., 0.],
+#  [0., 1., 0., 1., 0., 0., 0., 0., 0., 0., 1., 0.],
+#  [1., 0., 0., 0., 1., 0., 0., 0., 1., 1., 0., 0.],
+#  [0., 0., 0., 0., 0., 1., 0., 1., 0., 0., 0., 0.],
+#  [0., 0., 1., 0., 0., 0., 1., 0., 0., 0., 0., 0.],
+#  [0., 0., 0., 0., 0., 1., 0., 1., 0., 0., 0., 0.],
+#  [1., 0., 0., 0., 1., 0., 0., 0., 1., 0., 0., 0.],
+#  [0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0., 0.],
+#  [0., 0., 0., 1., 0., 0., 0., 0., 0., 0., 1., 0.],
+#  [0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 1.]])
 
 # # ---------------------------------------
 # # # From CLIPPER example
@@ -1183,13 +1183,11 @@ def get_new_d(u, C, M, d_prev, eps=1e-9):
     # Calculate Cbu
     ones = np.ones_like(u)
     Cbu = ones * np.sum(u) - get_Axk(C, u, k - 1) - u
-    print("Cbu", Cbu)
-    print("u", u)
+
 
     # Calculate idxD as a boolean mask
     idxD = (Cbu > eps) & (u > eps)
 
-    print("\nCurr sum", np.sum(idxD))
     if np.sum(idxD) > 0:
 
         # Calculate Mu

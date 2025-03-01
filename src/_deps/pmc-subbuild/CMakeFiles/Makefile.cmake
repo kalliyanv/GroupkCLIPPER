@@ -10,10 +10,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.31.4/CMakeSystem.cmake"
   "CMakeLists.txt"
   "pmc-populate-prefix/tmp/pmc-populate-mkdirs.cmake"
-  "/usr/local/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake"
   "/usr/local/share/cmake-3.31/Modules/CMakeGenericSystem.cmake"
   "/usr/local/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake"
-  "/usr/local/share/cmake-3.31/Modules/CMakeSystem.cmake.in"
   "/usr/local/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/local/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake"
   "/usr/local/share/cmake-3.31/Modules/ExternalProject.cmake"
@@ -38,7 +36,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/3.31.4/CMakeSystem.cmake"
   "pmc-populate-prefix/tmp/pmc-populate-mkdirs.cmake"
   "pmc-populate-prefix/tmp/pmc-populate-gitclone.cmake"
   "pmc-populate-prefix/src/pmc-populate-stamp/pmc-populate-gitinfo.txt"

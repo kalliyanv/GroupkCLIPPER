@@ -76,113 +76,113 @@ _deps/pmc-build/CMakeFiles/pmc.dir/pmc_heu.cpp.o: _deps/pmc-build/CMakeFiles/pmc
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_heu.cpp.o: _deps/pmc-src/pmc_heu.cpp
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_heu.cpp.o: _deps/pmc-build/CMakeFiles/pmc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmc_heu.cpp.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/pmc-build/CMakeFiles/pmc.dir/pmc_heu.cpp.o -MF CMakeFiles/pmc.dir/pmc_heu.cpp.o.d -o CMakeFiles/pmc.dir/pmc_heu.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_heu.cpp
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/pmc-build/CMakeFiles/pmc.dir/pmc_heu.cpp.o -MF CMakeFiles/pmc.dir/pmc_heu.cpp.o.d -o CMakeFiles/pmc.dir/pmc_heu.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_heu.cpp
 
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_heu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pmc.dir/pmc_heu.cpp.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_heu.cpp > CMakeFiles/pmc.dir/pmc_heu.cpp.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_heu.cpp > CMakeFiles/pmc.dir/pmc_heu.cpp.i
 
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_heu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pmc.dir/pmc_heu.cpp.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_heu.cpp -o CMakeFiles/pmc.dir/pmc_heu.cpp.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_heu.cpp -o CMakeFiles/pmc.dir/pmc_heu.cpp.s
 
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_maxclique.cpp.o: _deps/pmc-build/CMakeFiles/pmc.dir/flags.make
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_maxclique.cpp.o: _deps/pmc-src/pmc_maxclique.cpp
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_maxclique.cpp.o: _deps/pmc-build/CMakeFiles/pmc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmc_maxclique.cpp.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/pmc-build/CMakeFiles/pmc.dir/pmc_maxclique.cpp.o -MF CMakeFiles/pmc.dir/pmc_maxclique.cpp.o.d -o CMakeFiles/pmc.dir/pmc_maxclique.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_maxclique.cpp
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/pmc-build/CMakeFiles/pmc.dir/pmc_maxclique.cpp.o -MF CMakeFiles/pmc.dir/pmc_maxclique.cpp.o.d -o CMakeFiles/pmc.dir/pmc_maxclique.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_maxclique.cpp
 
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_maxclique.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pmc.dir/pmc_maxclique.cpp.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_maxclique.cpp > CMakeFiles/pmc.dir/pmc_maxclique.cpp.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_maxclique.cpp > CMakeFiles/pmc.dir/pmc_maxclique.cpp.i
 
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_maxclique.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pmc.dir/pmc_maxclique.cpp.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_maxclique.cpp -o CMakeFiles/pmc.dir/pmc_maxclique.cpp.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_maxclique.cpp -o CMakeFiles/pmc.dir/pmc_maxclique.cpp.s
 
 _deps/pmc-build/CMakeFiles/pmc.dir/pmcx_maxclique.cpp.o: _deps/pmc-build/CMakeFiles/pmc.dir/flags.make
 _deps/pmc-build/CMakeFiles/pmc.dir/pmcx_maxclique.cpp.o: _deps/pmc-src/pmcx_maxclique.cpp
 _deps/pmc-build/CMakeFiles/pmc.dir/pmcx_maxclique.cpp.o: _deps/pmc-build/CMakeFiles/pmc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmcx_maxclique.cpp.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/pmc-build/CMakeFiles/pmc.dir/pmcx_maxclique.cpp.o -MF CMakeFiles/pmc.dir/pmcx_maxclique.cpp.o.d -o CMakeFiles/pmc.dir/pmcx_maxclique.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmcx_maxclique.cpp
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/pmc-build/CMakeFiles/pmc.dir/pmcx_maxclique.cpp.o -MF CMakeFiles/pmc.dir/pmcx_maxclique.cpp.o.d -o CMakeFiles/pmc.dir/pmcx_maxclique.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmcx_maxclique.cpp
 
 _deps/pmc-build/CMakeFiles/pmc.dir/pmcx_maxclique.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pmc.dir/pmcx_maxclique.cpp.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmcx_maxclique.cpp > CMakeFiles/pmc.dir/pmcx_maxclique.cpp.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmcx_maxclique.cpp > CMakeFiles/pmc.dir/pmcx_maxclique.cpp.i
 
 _deps/pmc-build/CMakeFiles/pmc.dir/pmcx_maxclique.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pmc.dir/pmcx_maxclique.cpp.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmcx_maxclique.cpp -o CMakeFiles/pmc.dir/pmcx_maxclique.cpp.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmcx_maxclique.cpp -o CMakeFiles/pmc.dir/pmcx_maxclique.cpp.s
 
 _deps/pmc-build/CMakeFiles/pmc.dir/pmcx_maxclique_basic.cpp.o: _deps/pmc-build/CMakeFiles/pmc.dir/flags.make
 _deps/pmc-build/CMakeFiles/pmc.dir/pmcx_maxclique_basic.cpp.o: _deps/pmc-src/pmcx_maxclique_basic.cpp
 _deps/pmc-build/CMakeFiles/pmc.dir/pmcx_maxclique_basic.cpp.o: _deps/pmc-build/CMakeFiles/pmc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmcx_maxclique_basic.cpp.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/pmc-build/CMakeFiles/pmc.dir/pmcx_maxclique_basic.cpp.o -MF CMakeFiles/pmc.dir/pmcx_maxclique_basic.cpp.o.d -o CMakeFiles/pmc.dir/pmcx_maxclique_basic.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmcx_maxclique_basic.cpp
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/pmc-build/CMakeFiles/pmc.dir/pmcx_maxclique_basic.cpp.o -MF CMakeFiles/pmc.dir/pmcx_maxclique_basic.cpp.o.d -o CMakeFiles/pmc.dir/pmcx_maxclique_basic.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmcx_maxclique_basic.cpp
 
 _deps/pmc-build/CMakeFiles/pmc.dir/pmcx_maxclique_basic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pmc.dir/pmcx_maxclique_basic.cpp.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmcx_maxclique_basic.cpp > CMakeFiles/pmc.dir/pmcx_maxclique_basic.cpp.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmcx_maxclique_basic.cpp > CMakeFiles/pmc.dir/pmcx_maxclique_basic.cpp.i
 
 _deps/pmc-build/CMakeFiles/pmc.dir/pmcx_maxclique_basic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pmc.dir/pmcx_maxclique_basic.cpp.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmcx_maxclique_basic.cpp -o CMakeFiles/pmc.dir/pmcx_maxclique_basic.cpp.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmcx_maxclique_basic.cpp -o CMakeFiles/pmc.dir/pmcx_maxclique_basic.cpp.s
 
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_cores.cpp.o: _deps/pmc-build/CMakeFiles/pmc.dir/flags.make
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_cores.cpp.o: _deps/pmc-src/pmc_cores.cpp
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_cores.cpp.o: _deps/pmc-build/CMakeFiles/pmc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmc_cores.cpp.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/pmc-build/CMakeFiles/pmc.dir/pmc_cores.cpp.o -MF CMakeFiles/pmc.dir/pmc_cores.cpp.o.d -o CMakeFiles/pmc.dir/pmc_cores.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_cores.cpp
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/pmc-build/CMakeFiles/pmc.dir/pmc_cores.cpp.o -MF CMakeFiles/pmc.dir/pmc_cores.cpp.o.d -o CMakeFiles/pmc.dir/pmc_cores.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_cores.cpp
 
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_cores.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pmc.dir/pmc_cores.cpp.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_cores.cpp > CMakeFiles/pmc.dir/pmc_cores.cpp.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_cores.cpp > CMakeFiles/pmc.dir/pmc_cores.cpp.i
 
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_cores.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pmc.dir/pmc_cores.cpp.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_cores.cpp -o CMakeFiles/pmc.dir/pmc_cores.cpp.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_cores.cpp -o CMakeFiles/pmc.dir/pmc_cores.cpp.s
 
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_utils.cpp.o: _deps/pmc-build/CMakeFiles/pmc.dir/flags.make
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_utils.cpp.o: _deps/pmc-src/pmc_utils.cpp
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_utils.cpp.o: _deps/pmc-build/CMakeFiles/pmc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmc_utils.cpp.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/pmc-build/CMakeFiles/pmc.dir/pmc_utils.cpp.o -MF CMakeFiles/pmc.dir/pmc_utils.cpp.o.d -o CMakeFiles/pmc.dir/pmc_utils.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_utils.cpp
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/pmc-build/CMakeFiles/pmc.dir/pmc_utils.cpp.o -MF CMakeFiles/pmc.dir/pmc_utils.cpp.o.d -o CMakeFiles/pmc.dir/pmc_utils.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_utils.cpp
 
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pmc.dir/pmc_utils.cpp.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_utils.cpp > CMakeFiles/pmc.dir/pmc_utils.cpp.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_utils.cpp > CMakeFiles/pmc.dir/pmc_utils.cpp.i
 
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pmc.dir/pmc_utils.cpp.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_utils.cpp -o CMakeFiles/pmc.dir/pmc_utils.cpp.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_utils.cpp -o CMakeFiles/pmc.dir/pmc_utils.cpp.s
 
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_graph.cpp.o: _deps/pmc-build/CMakeFiles/pmc.dir/flags.make
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_graph.cpp.o: _deps/pmc-src/pmc_graph.cpp
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_graph.cpp.o: _deps/pmc-build/CMakeFiles/pmc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmc_graph.cpp.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/pmc-build/CMakeFiles/pmc.dir/pmc_graph.cpp.o -MF CMakeFiles/pmc.dir/pmc_graph.cpp.o.d -o CMakeFiles/pmc.dir/pmc_graph.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_graph.cpp
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/pmc-build/CMakeFiles/pmc.dir/pmc_graph.cpp.o -MF CMakeFiles/pmc.dir/pmc_graph.cpp.o.d -o CMakeFiles/pmc.dir/pmc_graph.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_graph.cpp
 
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_graph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pmc.dir/pmc_graph.cpp.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_graph.cpp > CMakeFiles/pmc.dir/pmc_graph.cpp.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_graph.cpp > CMakeFiles/pmc.dir/pmc_graph.cpp.i
 
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_graph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pmc.dir/pmc_graph.cpp.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_graph.cpp -o CMakeFiles/pmc.dir/pmc_graph.cpp.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_graph.cpp -o CMakeFiles/pmc.dir/pmc_graph.cpp.s
 
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_clique_utils.cpp.o: _deps/pmc-build/CMakeFiles/pmc.dir/flags.make
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_clique_utils.cpp.o: _deps/pmc-src/pmc_clique_utils.cpp
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_clique_utils.cpp.o: _deps/pmc-build/CMakeFiles/pmc.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object _deps/pmc-build/CMakeFiles/pmc.dir/pmc_clique_utils.cpp.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/pmc-build/CMakeFiles/pmc.dir/pmc_clique_utils.cpp.o -MF CMakeFiles/pmc.dir/pmc_clique_utils.cpp.o.d -o CMakeFiles/pmc.dir/pmc_clique_utils.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_clique_utils.cpp
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/pmc-build/CMakeFiles/pmc.dir/pmc_clique_utils.cpp.o -MF CMakeFiles/pmc.dir/pmc_clique_utils.cpp.o.d -o CMakeFiles/pmc.dir/pmc_clique_utils.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_clique_utils.cpp
 
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_clique_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pmc.dir/pmc_clique_utils.cpp.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_clique_utils.cpp > CMakeFiles/pmc.dir/pmc_clique_utils.cpp.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_clique_utils.cpp > CMakeFiles/pmc.dir/pmc_clique_utils.cpp.i
 
 _deps/pmc-build/CMakeFiles/pmc.dir/pmc_clique_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pmc.dir/pmc_clique_utils.cpp.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_clique_utils.cpp -o CMakeFiles/pmc.dir/pmc_clique_utils.cpp.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_clique_utils.cpp -o CMakeFiles/pmc.dir/pmc_clique_utils.cpp.s
 
 # Object files for target pmc
 pmc_OBJECTS = \

@@ -446,6 +446,9 @@ PYTHON_LIBRARY:FILEPATH=/home/kalliyanlay/anaconda3/lib/libpython3.8.so
 //Use single precision floats rather than doubles
 SFLOAT:BOOL=OFF
 
+//The directory containing a CMake configuration file for TBB.
+TBB_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/TBB
+
 //Value Computed by CMake
 clipper_BINARY_DIR:STATIC=/home/kalliyanlay/Documents/BYU/research/clipper/build
 
@@ -491,8 +494,17 @@ scsdir_LIB_DEPENDS:STATIC=general;m;general;blas;general;lapack;
 //Dependencies for the target
 scsindir_LIB_DEPENDS:STATIC=general;m;general;blas;general;lapack;
 
+//The directory containing a CMake configuration file for xsimd.
+xsimd_DIR:PATH=xsimd_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for xtensor-blas.
 xtensor-blas_DIR:PATH=/usr/local/lib/cmake/xtensor-blas
+
+//The directory containing a CMake configuration file for xtensor.
+xtensor_DIR:PATH=/usr/local/share/cmake/xtensor
+
+//The directory containing a CMake configuration file for xtl.
+xtl_DIR:PATH=/usr/local/share/cmake/xtl
 
 
 ########################
@@ -775,6 +787,8 @@ _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
 _Python:INTERNAL=PYTHON
+//Test arch_native_supported
+arch_native_supported:INTERNAL=1
 //True if pybind11 and all required components found on the system
 pybind11_FOUND:INTERNAL=TRUE
 //Directory where pybind11 headers are located

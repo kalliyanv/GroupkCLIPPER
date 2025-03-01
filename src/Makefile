@@ -162,19 +162,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named GroupkCLIPPER
-
-# Build rule for target.
-GroupkCLIPPER: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GroupkCLIPPER
-.PHONY : GroupkCLIPPER
-
-# fast build rule for target.
-GroupkCLIPPER/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GroupkCLIPPER.dir/build.make CMakeFiles/GroupkCLIPPER.dir/build
-.PHONY : GroupkCLIPPER/fast
-
-#=============================================================================
 # Target rules for targets named gkcm_brendon
 
 # Build rule for target.
@@ -309,7 +296,6 @@ GkCLIPPER.o: GkCLIPPER.cpp.o
 
 # target to build an object file
 GkCLIPPER.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GroupkCLIPPER.dir/build.make CMakeFiles/GroupkCLIPPER.dir/GkCLIPPER.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gkcm_brendon.dir/build.make CMakeFiles/gkcm_brendon.dir/GkCLIPPER.cpp.o
 .PHONY : GkCLIPPER.cpp.o
 
@@ -318,7 +304,6 @@ GkCLIPPER.i: GkCLIPPER.cpp.i
 
 # target to preprocess a source file
 GkCLIPPER.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GroupkCLIPPER.dir/build.make CMakeFiles/GroupkCLIPPER.dir/GkCLIPPER.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gkcm_brendon.dir/build.make CMakeFiles/gkcm_brendon.dir/GkCLIPPER.cpp.i
 .PHONY : GkCLIPPER.cpp.i
 
@@ -327,7 +312,6 @@ GkCLIPPER.s: GkCLIPPER.cpp.s
 
 # target to generate assembly for a file
 GkCLIPPER.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GroupkCLIPPER.dir/build.make CMakeFiles/GroupkCLIPPER.dir/GkCLIPPER.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gkcm_brendon.dir/build.make CMakeFiles/gkcm_brendon.dir/GkCLIPPER.cpp.s
 .PHONY : GkCLIPPER.cpp.s
 
@@ -355,30 +339,6 @@ gkcm_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gkcm_brendon.dir/build.make CMakeFiles/gkcm_brendon.dir/gkcm_test.cpp.s
 .PHONY : gkcm_test.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GroupkCLIPPER.dir/build.make CMakeFiles/GroupkCLIPPER.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GroupkCLIPPER.dir/build.make CMakeFiles/GroupkCLIPPER.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GroupkCLIPPER.dir/build.make CMakeFiles/GroupkCLIPPER.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -394,7 +354,6 @@ help:
 	@echo "... pip-install"
 	@echo "... pypkg"
 	@echo "... uninstall"
-	@echo "... GroupkCLIPPER"
 	@echo "... clipper"
 	@echo "... gkcm_brendon"
 	@echo "... pmc"
@@ -408,9 +367,6 @@ help:
 	@echo "... gkcm_test.o"
 	@echo "... gkcm_test.i"
 	@echo "... gkcm_test.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 .PHONY : help
 
 

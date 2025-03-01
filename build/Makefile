@@ -175,6 +175,19 @@ gkcm_brendon/fast:
 .PHONY : gkcm_brendon/fast
 
 #=============================================================================
+# Target rules for targets named goats
+
+# Build rule for target.
+goats: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 goats
+.PHONY : goats
+
+# fast build rule for target.
+goats/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/goats.dir/build.make CMakeFiles/goats.dir/build
+.PHONY : goats/fast
+
+#=============================================================================
 # Target rules for targets named clipper
 
 # Build rule for target.
@@ -297,6 +310,7 @@ src/GkCLIPPER.o: src/GkCLIPPER.cpp.o
 # target to build an object file
 src/GkCLIPPER.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gkcm_brendon.dir/build.make CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/goats.dir/build.make CMakeFiles/goats.dir/src/GkCLIPPER.cpp.o
 .PHONY : src/GkCLIPPER.cpp.o
 
 src/GkCLIPPER.i: src/GkCLIPPER.cpp.i
@@ -305,6 +319,7 @@ src/GkCLIPPER.i: src/GkCLIPPER.cpp.i
 # target to preprocess a source file
 src/GkCLIPPER.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gkcm_brendon.dir/build.make CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/goats.dir/build.make CMakeFiles/goats.dir/src/GkCLIPPER.cpp.i
 .PHONY : src/GkCLIPPER.cpp.i
 
 src/GkCLIPPER.s: src/GkCLIPPER.cpp.s
@@ -313,6 +328,7 @@ src/GkCLIPPER.s: src/GkCLIPPER.cpp.s
 # target to generate assembly for a file
 src/GkCLIPPER.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gkcm_brendon.dir/build.make CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/goats.dir/build.make CMakeFiles/goats.dir/src/GkCLIPPER.cpp.s
 .PHONY : src/GkCLIPPER.cpp.s
 
 src/gkcm_test.o: src/gkcm_test.cpp.o
@@ -339,6 +355,30 @@ src/gkcm_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gkcm_brendon.dir/build.make CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.s
 .PHONY : src/gkcm_test.cpp.s
 
+src/goats_test.o: src/goats_test.cpp.o
+.PHONY : src/goats_test.o
+
+# target to build an object file
+src/goats_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/goats.dir/build.make CMakeFiles/goats.dir/src/goats_test.cpp.o
+.PHONY : src/goats_test.cpp.o
+
+src/goats_test.i: src/goats_test.cpp.i
+.PHONY : src/goats_test.i
+
+# target to preprocess a source file
+src/goats_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/goats.dir/build.make CMakeFiles/goats.dir/src/goats_test.cpp.i
+.PHONY : src/goats_test.cpp.i
+
+src/goats_test.s: src/goats_test.cpp.s
+.PHONY : src/goats_test.s
+
+# target to generate assembly for a file
+src/goats_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/goats.dir/build.make CMakeFiles/goats.dir/src/goats_test.cpp.s
+.PHONY : src/goats_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -356,6 +396,7 @@ help:
 	@echo "... uninstall"
 	@echo "... clipper"
 	@echo "... gkcm_brendon"
+	@echo "... goats"
 	@echo "... pmc"
 	@echo "... pmc_main"
 	@echo "... py_clipper"
@@ -367,6 +408,9 @@ help:
 	@echo "... src/gkcm_test.o"
 	@echo "... src/gkcm_test.i"
 	@echo "... src/gkcm_test.s"
+	@echo "... src/goats_test.o"
+	@echo "... src/goats_test.i"
+	@echo "... src/goats_test.s"
 .PHONY : help
 
 

@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/pmc_main.dir/pmc_driver.cpp.o -o pmc_main  -Wl,-rpath,/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build libpmc.so /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/pmc_main.dir/pmc_driver.cpp.o -o pmc_main  -Wl,-rpath,/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build libpmc.so /usr/lib/gcc/x86_64-linux-gnu/9/libgomp.so /usr/lib/x86_64-linux-gnu/libpthread.so

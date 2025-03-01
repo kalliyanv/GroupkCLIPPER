@@ -112,6 +112,8 @@ gkcm_brendon: CMakeFiles/gkcm_brendon.dir/gkcm_test.cpp.o
 gkcm_brendon: CMakeFiles/gkcm_brendon.dir/GkCLIPPER.cpp.o
 gkcm_brendon: CMakeFiles/gkcm_brendon.dir/build.make
 gkcm_brendon: /home/kalliyanlay/Documents/BYU/research/clipper/build/libclipper.so.0.2.4
+gkcm_brendon: /usr/local/lib/libopenblas.so
+gkcm_brendon: /usr/local/lib/libopenblas.so
 gkcm_brendon: CMakeFiles/gkcm_brendon.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable gkcm_brendon"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gkcm_brendon.dir/link.txt --verbose=$(VERBOSE)

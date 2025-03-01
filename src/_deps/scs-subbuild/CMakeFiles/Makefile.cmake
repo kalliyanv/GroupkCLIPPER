@@ -10,10 +10,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.31.4/CMakeSystem.cmake"
   "CMakeLists.txt"
   "scs-populate-prefix/tmp/scs-populate-mkdirs.cmake"
-  "/usr/local/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake"
   "/usr/local/share/cmake-3.31/Modules/CMakeGenericSystem.cmake"
   "/usr/local/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake"
-  "/usr/local/share/cmake-3.31/Modules/CMakeSystem.cmake.in"
   "/usr/local/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/local/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake"
   "/usr/local/share/cmake-3.31/Modules/ExternalProject.cmake"
@@ -38,7 +36,6 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/3.31.4/CMakeSystem.cmake"
   "scs-populate-prefix/tmp/scs-populate-mkdirs.cmake"
   "scs-populate-prefix/tmp/scs-populate-gitclone.cmake"
   "scs-populate-prefix/src/scs-populate-stamp/scs-populate-gitinfo.txt"

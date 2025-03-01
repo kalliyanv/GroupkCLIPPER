@@ -1,4 +1,5 @@
 /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles/gkcm_brendon.dir
+/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles/goats.dir
 /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles/edit_cache.dir
 /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles/rebuild_cache.dir
 /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles/list_install_components.dir

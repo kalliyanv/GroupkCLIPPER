@@ -77,6 +77,20 @@ double GkCLIPPER::rayleigh_quotient(const xt::xarray<double>& tensor, const xt::
     return tensor_contract(tensor, x, k)();
 }
 
+void GkCLIPPER::print_sorted_values(const xt::xarray<double>& x) {
+
+    // Sort the indices based on values in x (descending order)
+    xt::xarray<double> sorted_values = xt::sort(x);
+    xt::xarray<size_t> sorted_indices = xt::argsort(x);
+
+    std::reverse(sorted_values.begin(), sorted_values.end());
+    std::reverse(sorted_indices.begin(), sorted_indices.end());
+
+    // cout << "\nValues vs Indices" << endl;
+    // cout << sorted_values << endl;
+    // cout << sorted_indices << endl;
+}
+
 // Function to get the indices of the top omega values in an xtensor array
 xt::xarray<size_t> GkCLIPPER::get_top_n_indices(const xt::xarray<double>& x, size_t omega) {
     if (omega > x.size()) {
@@ -91,7 +105,7 @@ xt::xarray<size_t> GkCLIPPER::get_top_n_indices(const xt::xarray<double>& x, siz
     xt::xarray<size_t> top_indices = xt::view(sorted_indices, xt::range(x.size() - omega, x.size()));
 
     // Reverse to get indices in descending order of values
-    std::reverse(top_indices.begin(), top_indices.end());
+    // std::reverse(top_indices.begin(), top_indices.end());
 
     stable_sort(top_indices.begin(), top_indices.end());
     return top_indices;
@@ -185,7 +199,6 @@ void GkCLIPPER::h_eigenvalue_rayleigh(
         }
         stop = high_resolution_clock::now();
         duration = duration_cast<microseconds>(stop - start);
-        std::cout << "Time backtrack " << duration.count()*1e-6 << std::endl;
 
         // cout << "step size " << t << endl;
         // Update x using the computed step size. TODO use backtracking or not? t * grad vs alpha * grad
@@ -252,6 +265,59 @@ void GkCLIPPER::h_eigenvalue_rayleigh(
 
 void GkCLIPPER::solve()
 {
+
+    // // --------------OLD----------------
+    // // TODO: init properly
+    // int max_iter = 1000;
+    // double eps = 1e-9;
+
+    // xt::xarray<double> C = M;
+
+    // // Get inital value of u
+    // auto start = high_resolution_clock::now();
+    // h_eigenvalue_rayleigh();
+    // auto stop = high_resolution_clock::now();
+    // auto duration = duration_cast<microseconds>(stop - start);
+    // // std::cout << "Time first rayleigh " << duration.count() << std::endl;
+    // // exit(1);
+
+    // double d = get_new_d(u, C, M, 0);
+    // auto ones = xt::ones_like(u);
+
+    // for (int i = 0; i < max_iter; ++i) {
+    //     if (std::isnan(d)) {
+    //         // cout << "d is None" << endl;
+    //         break;
+    //     } else {
+    //         // cout << "INITING X " << u << "  NEW PENATLY " << d << endl;
+    //         h_eigenvalue_rayleigh(u, d);
+
+    //         double upper_bound = rho / std::tgamma(k + 1) + k;
+
+    //         auto Cu = C;
+    //         for (int j = 0; j < k - 1; ++j) {
+    //             // Cu = xt::sum(Cu * u, {0});
+    //             Cu = xt::linalg::tensordot(Cu, u, {0}, {0});
+    //         }
+
+    //         auto Cbu = ones * xt::sum(u)() - Cu - u;
+    //         xt::xarray<int> idxD = xt::cast<int>(((Cbu > eps) & (u > eps)));
+
+    //         double d_temp = get_new_d(u, C, M, d);
+    //         if (std::isnan(d_temp)) {
+    //             // Clique constraints satisfied
+    //             break;
+    //         } else {
+    //             d = d_temp;
+    //         }
+    //     }
+    // }
+
+
+
+
+
+    // --------------NEW----------------
     auto start = high_resolution_clock::now();
     auto stop = high_resolution_clock::now();
     auto duration = duration_cast<microseconds>(stop - start);
@@ -285,8 +351,11 @@ void GkCLIPPER::solve()
     }
 
     // u = {0.344441, 0.410485, 0.177733, 0.419849, 0.493371, 0.0731459, 0.177733, 0.0731459, 0.344441, 0.214605, 0.207051, 0.10831};
-    double norm = calculate_k_norm(u, k);
+    double norm = calculate_k_norm(u, 2);
     u /= norm;
+    xt::xarray<double> u_old = u;
+
+    // cout << "u init " << u << endl;
 
     auto ones = xt::ones_like(u);
 
@@ -298,6 +367,12 @@ void GkCLIPPER::solve()
 
     // Calculate idxD as a boolean mask
     auto idxD = (Cbu > eps) & (u > eps);
+
+    // cout << "u init " << u << endl;
+    // cout << "sum " << xt::sum(u)() << endl;
+    // cout << "contract " << (tensor_contract(M, u, k - 1) - u) << endl;
+    // cout << "Cbu init " << (Cbu > eps) << endl;
+    // cout << "idxD init " << idxD << endl;
 
 
     if (xt::sum(idxD)() > 0) {
@@ -319,7 +394,7 @@ void GkCLIPPER::solve()
 
     int tot_iters = 0;
     for (i_iter=0; i_iter<maxoliters; ++i_iter) {
-
+        u_old = u;
         Muk_min_1 = tensor_contract(M, u, k - 1) - u; // Should be vector
         auto Cud = Muk_min_1 * d;
         gradF = (1 + d) * u - d * ones * xt::sum(u)() + Muk_min_1  + Cud;//k * Muk_min_1 + d * u - d * ones * xt::sum(u)(); // multiply by k or not?
@@ -328,8 +403,9 @@ void GkCLIPPER::solve()
         //
         // Orthogonal projected gradient ascent
         // tot_iters++;
-        // cout << "tot iters " << tot_iters << endl;
+        // cout << endl << "penalty iters " << i_iter << endl;
         //
+        // start = high_resolution_clock::now();
         for (j_iter=0; j_iter<maxiniters; ++j_iter) { 
             double alpha = 1.0;
 
@@ -340,7 +416,7 @@ void GkCLIPPER::solve()
             for (k_iter=0; k_iter<maxlsiters; ++k_iter) {
                 unew = u + alpha * gradF;
                 unew = xt::maximum(unew, 0.0);        // project onto positive orthant
-                norm = calculate_k_norm(unew, k);
+                norm = calculate_k_norm(unew, 2);
                
                 if (norm > 0) {
                     unew /= norm;
@@ -389,6 +465,9 @@ void GkCLIPPER::solve()
             // check if desired accuracy has been reached by gradient ascent 
             if (deltau < tol_u || std::abs(deltaF) < tol_F) break;
         }
+        // stop = high_resolution_clock::now();
+        // duration = duration_cast<microseconds>(stop - start);
+        // cout << "PGA time " << duration.count()*1e-6 << endl;
 
         //
         // Increase d
@@ -398,7 +477,12 @@ void GkCLIPPER::solve()
 
         // Calculate idxD as a boolean mask
         auto idxD = (Cbu > eps) & (u > eps);
+        // cout << "\nd " << d << endl;
+        // cout << "Cbu " << (Cbu > eps) << endl;
+        // cout << "u " << u << endl;
+        // cout << "idxD " << idxD << endl; 
 
+        if (xt::linalg::norm(u - u_old) < tol_u) break;
 
         if (xt::sum(idxD)() > 0) {
             // Calculate Mu

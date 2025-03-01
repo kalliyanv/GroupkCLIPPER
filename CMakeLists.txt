@@ -48,12 +48,15 @@ message(STATUS "LAPACK LIBRARIES: " ${LAPACK_LIBRARIES})
 # Add the executable
 # add_executable(GroupkCLIPPER src/main.cpp src/GkCLIPPER.cpp)
 add_executable(gkcm_brendon src/gkcm_test.cpp src/GkCLIPPER.cpp)
+add_executable(goats src/goats_test.cpp src/GkCLIPPER.cpp)
+
 # add_executable(norm_example src/temp.cpp)
 # target_link_libraries(norm_example PRIVATE xtensor xtensor-blas ${LAPACK_LIBRARIES} ${BLAS_LIBRARIES})
 
 
 # Link the gen_max_clique library and openblas libraries
 target_link_libraries(gkcm_brendon PRIVATE gen_max_clique pthread clipper xtensor xtensor-blas ${LAPACK_LIBRARIES} ${BLAS_LIBRARIES})
+target_link_libraries(goats PRIVATE gen_max_clique pthread clipper xtensor xtensor-blas ${LAPACK_LIBRARIES} ${BLAS_LIBRARIES})
 # target_link_libraries(gkcm_brendon PRIVATE gen_max_clique pthread ${BLAS_LIBRARIES} ${LAPACK_LIBRARIES})
 
 # ---------------working temp example-------------

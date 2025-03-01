@@ -76,29 +76,29 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: CMakeFiles/gkcm_brendon.dir/fla
 CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/gkcm_test.cpp
 CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: CMakeFiles/gkcm_brendon.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o -MF CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o.d -o CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/gkcm_test.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o -MF CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o.d -o CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/gkcm_test.cpp
 
 CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/gkcm_test.cpp > CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/gkcm_test.cpp > CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.i
 
 CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/gkcm_test.cpp -o CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/gkcm_test.cpp -o CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.s
 
 CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.o: CMakeFiles/gkcm_brendon.dir/flags.make
 CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.o: /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/GkCLIPPER.cpp
 CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.o: CMakeFiles/gkcm_brendon.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.o -MF CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.o.d -o CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/GkCLIPPER.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.o -MF CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.o.d -o CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/GkCLIPPER.cpp
 
 CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/GkCLIPPER.cpp > CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/GkCLIPPER.cpp > CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.i
 
 CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/GkCLIPPER.cpp -o CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/GkCLIPPER.cpp -o CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.s
 
 # Object files for target gkcm_brendon
 gkcm_brendon_OBJECTS = \

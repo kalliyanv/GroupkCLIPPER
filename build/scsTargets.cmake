@@ -61,18 +61,18 @@ set_target_properties(scs::scsindir PROPERTIES
   INTERFACE_LINK_LIBRARIES "m;blas;lapack"
 )
 
-# Import target "scs::scsdir" for configuration "Debug"
-set_property(TARGET scs::scsdir APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
+# Import target "scs::scsdir" for configuration "Release"
+set_property(TARGET scs::scsdir APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(scs::scsdir PROPERTIES
-  IMPORTED_LOCATION_DEBUG "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/lib/libscsdir.so.3.2.3"
-  IMPORTED_SONAME_DEBUG "libscsdir.so.3.2.3"
+  IMPORTED_LOCATION_RELEASE "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/lib/libscsdir.so.3.2.3"
+  IMPORTED_SONAME_RELEASE "libscsdir.so.3.2.3"
   )
 
-# Import target "scs::scsindir" for configuration "Debug"
-set_property(TARGET scs::scsindir APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
+# Import target "scs::scsindir" for configuration "Release"
+set_property(TARGET scs::scsindir APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(scs::scsindir PROPERTIES
-  IMPORTED_LOCATION_DEBUG "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/lib/libscsindir.so.3.2.3"
-  IMPORTED_SONAME_DEBUG "libscsindir.so.3.2.3"
+  IMPORTED_LOCATION_RELEASE "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/lib/libscsindir.so.3.2.3"
+  IMPORTED_SONAME_RELEASE "libscsindir.so.3.2.3"
   )
 
 # This file does not depend on other imported targets which have

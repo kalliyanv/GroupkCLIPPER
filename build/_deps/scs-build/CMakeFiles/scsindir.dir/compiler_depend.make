@@ -38,12 +38,20 @@ _deps/scs-build/CMakeFiles/scsindir.dir/linsys/cpu/indirect/private.c.o: _deps/s
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
@@ -109,12 +117,18 @@ _deps/scs-build/CMakeFiles/scsindir.dir/linsys/csparse.c.o: _deps/scs-src/linsys
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
@@ -184,12 +198,20 @@ _deps/scs-build/CMakeFiles/scsindir.dir/linsys/scs_matrix.c.o: _deps/scs-src/lin
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
@@ -258,12 +280,20 @@ _deps/scs-build/CMakeFiles/scsindir.dir/src/aa.c.o: _deps/scs-src/src/aa.c \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
@@ -333,12 +363,20 @@ _deps/scs-build/CMakeFiles/scsindir.dir/src/cones.c.o: _deps/scs-src/src/cones.c
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
@@ -454,12 +492,20 @@ _deps/scs-build/CMakeFiles/scsindir.dir/src/exp_cone.c.o: _deps/scs-src/src/exp_
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
@@ -523,12 +569,18 @@ _deps/scs-build/CMakeFiles/scsindir.dir/src/linalg.c.o: _deps/scs-src/src/linalg
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
@@ -591,12 +643,18 @@ _deps/scs-build/CMakeFiles/scsindir.dir/src/normalize.c.o: _deps/scs-src/src/nor
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
@@ -673,13 +731,21 @@ _deps/scs-build/CMakeFiles/scsindir.dir/src/rw.c.o: _deps/scs-src/src/rw.c \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
@@ -760,12 +826,20 @@ _deps/scs-build/CMakeFiles/scsindir.dir/src/scs.c.o: _deps/scs-src/src/scs.c \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
@@ -830,12 +904,18 @@ _deps/scs-build/CMakeFiles/scsindir.dir/src/scs_version.c.o: _deps/scs-src/src/s
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
@@ -904,12 +984,20 @@ _deps/scs-build/CMakeFiles/scsindir.dir/src/util.c.o: _deps/scs-src/src/util.c \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
@@ -950,256 +1038,272 @@ _deps/scs-build/CMakeFiles/scsindir.dir/src/util.c.o: _deps/scs-src/src/util.c \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h
 
 
-_deps/scs-src/src/util.c:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/errno.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-_deps/scs-src/include/rw.h:
-
-_deps/scs-src/src/rw.c:
-
-_deps/scs-src/include/normalize.h:
-
-_deps/scs-src/src/normalize.c:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
-
-_deps/scs-src/src/linalg.c:
-
-/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/signum.h:
-
-/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
-
 _deps/scs-src/src/scs_version.c:
-
-/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
-
-/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
-
-_deps/scs-src/src/ctrlc.c:
-
-/usr/include/x86_64-linux-gnu/bits/sigaction.h:
-
-_deps/scs-src/src/cones.c:
-
-_deps/scs-src/include/aa.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
-
-_deps/scs-src/src/aa.c:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h:
-
-/usr/include/signal.h:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-_deps/scs-src/src/scs.c:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
-
-_deps/scs-src/linsys/scs_matrix.c:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h:
 
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/usr/include/string.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/stdlib.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-/usr/include/endian.h:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/include/x86_64-linux-gnu/sys/ucontext.h:
-
-/usr/include/math.h:
-
-/usr/include/alloca.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-_deps/scs-src/src/exp_cone.c:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
-
-_deps/scs-src/linsys/cpu/indirect/private.c:
-
-/usr/include/x86_64-linux-gnu/bits/sigstack.h:
-
-_deps/scs-src/linsys/csparse.h:
-
-_deps/scs-src/include/cones.h:
-
-_deps/scs-src/linsys/csparse.c:
-
-/usr/include/features.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
-_deps/scs-src/include/scs_blas.h:
-
-/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
-
-/usr/include/strings.h:
-
-_deps/scs-src/include/linalg.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
-
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-_deps/scs-src/include/scs_types.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-_deps/scs-src/include/util.h:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-_deps/scs-src/include/linsys.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
-
-/usr/include/time.h:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
-_deps/scs-src/include/scs_work.h:
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
-_deps/scs-src/linsys/scs_matrix.h:
+/usr/include/x86_64-linux-gnu/bits/time.h:
 
-/usr/include/stdint.h:
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
 
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
+_deps/scs-src/linsys/cpu/indirect/private.h:
 
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+_deps/scs-src/include/glbopts.h:
+
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
+_deps/scs-src/src/aa.c:
+
+/usr/include/x86_64-linux-gnu/bits/mathinline.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+_deps/scs-src/include/ctrlc.h:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
-_deps/scs-src/include/ctrlc.h:
-
 _deps/scs-src/include/scs.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
-_deps/scs-src/include/glbopts.h:
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
-/usr/include/x86_64-linux-gnu/bits/select.h:
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+_deps/scs-src/linsys/scs_matrix.h:
+
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
-/usr/include/stdc-predef.h:
-
-_deps/scs-src/linsys/cpu/indirect/private.h:
+/usr/include/x86_64-linux-gnu/bits/types.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+_deps/scs-src/include/linsys.h:
+
+_deps/scs-src/include/util.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+_deps/scs-src/include/scs_types.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+_deps/scs-src/include/linalg.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
-/usr/include/x86_64-linux-gnu/bits/time.h:
+/usr/include/strings.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+_deps/scs-src/include/scs_blas.h:
+
+/usr/include/features.h:
+
+/usr/include/stdc-predef.h:
+
+_deps/scs-src/linsys/csparse.c:
+
+_deps/scs-src/include/cones.h:
+
+_deps/scs-src/linsys/csparse.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigstack.h:
+
+_deps/scs-src/linsys/cpu/indirect/private.c:
+
+_deps/scs-src/src/exp_cone.c:
 
 /usr/include/stdio.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/alloca.h:
+
+_deps/scs-src/src/scs.c:
+
+/usr/include/math.h:
+
+/usr/include/x86_64-linux-gnu/sys/ucontext.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/endian.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/string.h:
+
+_deps/scs-src/src/util.c:
+
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+_deps/scs-src/linsys/scs_matrix.c:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/signal.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+_deps/scs-src/include/aa.h:
+
+_deps/scs-src/src/cones.c:
+
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
+
+_deps/scs-src/src/ctrlc.c:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
+
+/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
+
+_deps/scs-src/src/linalg.c:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
+
+_deps/scs-src/src/normalize.c:
+
+_deps/scs-src/include/normalize.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
+
+_deps/scs-src/src/rw.c:
+
+_deps/scs-src/include/rw.h:
+
+_deps/scs-src/include/scs_work.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
+
+/usr/include/errno.h:

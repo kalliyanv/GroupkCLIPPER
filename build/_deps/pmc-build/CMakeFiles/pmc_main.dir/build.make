@@ -76,15 +76,15 @@ _deps/pmc-build/CMakeFiles/pmc_main.dir/pmc_driver.cpp.o: _deps/pmc-build/CMakeF
 _deps/pmc-build/CMakeFiles/pmc_main.dir/pmc_driver.cpp.o: _deps/pmc-src/pmc_driver.cpp
 _deps/pmc-build/CMakeFiles/pmc_main.dir/pmc_driver.cpp.o: _deps/pmc-build/CMakeFiles/pmc_main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/pmc-build/CMakeFiles/pmc_main.dir/pmc_driver.cpp.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/pmc-build/CMakeFiles/pmc_main.dir/pmc_driver.cpp.o -MF CMakeFiles/pmc_main.dir/pmc_driver.cpp.o.d -o CMakeFiles/pmc_main.dir/pmc_driver.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_driver.cpp
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/pmc-build/CMakeFiles/pmc_main.dir/pmc_driver.cpp.o -MF CMakeFiles/pmc_main.dir/pmc_driver.cpp.o.d -o CMakeFiles/pmc_main.dir/pmc_driver.cpp.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_driver.cpp
 
 _deps/pmc-build/CMakeFiles/pmc_main.dir/pmc_driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pmc_main.dir/pmc_driver.cpp.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_driver.cpp > CMakeFiles/pmc_main.dir/pmc_driver.cpp.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_driver.cpp > CMakeFiles/pmc_main.dir/pmc_driver.cpp.i
 
 _deps/pmc-build/CMakeFiles/pmc_main.dir/pmc_driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pmc_main.dir/pmc_driver.cpp.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_driver.cpp -o CMakeFiles/pmc_main.dir/pmc_driver.cpp.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-src/pmc_driver.cpp -o CMakeFiles/pmc_main.dir/pmc_driver.cpp.s
 
 # Object files for target pmc_main
 pmc_main_OBJECTS = \

@@ -88,6 +88,7 @@ class GkCLIPPER
         );
         void solve();
         xt::xarray<size_t> get_top_n_indices(const xt::xarray<double>& x, size_t omega);
+        void print_sorted_values(const xt::xarray<double>& x);
 
     private:
 

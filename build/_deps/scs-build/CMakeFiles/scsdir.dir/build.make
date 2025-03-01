@@ -76,393 +76,393 @@ _deps/scs-build/CMakeFiles/scsdir.dir/src/aa.c.o: _deps/scs-build/CMakeFiles/scs
 _deps/scs-build/CMakeFiles/scsdir.dir/src/aa.c.o: _deps/scs-src/src/aa.c
 _deps/scs-build/CMakeFiles/scsdir.dir/src/aa.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/src/aa.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/src/aa.c.o -MF CMakeFiles/scsdir.dir/src/aa.c.o.d -o CMakeFiles/scsdir.dir/src/aa.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/aa.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/src/aa.c.o -MF CMakeFiles/scsdir.dir/src/aa.c.o.d -o CMakeFiles/scsdir.dir/src/aa.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/aa.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/aa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/src/aa.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/aa.c > CMakeFiles/scsdir.dir/src/aa.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/aa.c > CMakeFiles/scsdir.dir/src/aa.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/aa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/src/aa.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/aa.c -o CMakeFiles/scsdir.dir/src/aa.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/aa.c -o CMakeFiles/scsdir.dir/src/aa.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/cones.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/src/cones.c.o: _deps/scs-src/src/cones.c
 _deps/scs-build/CMakeFiles/scsdir.dir/src/cones.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/src/cones.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/src/cones.c.o -MF CMakeFiles/scsdir.dir/src/cones.c.o.d -o CMakeFiles/scsdir.dir/src/cones.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/cones.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/src/cones.c.o -MF CMakeFiles/scsdir.dir/src/cones.c.o.d -o CMakeFiles/scsdir.dir/src/cones.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/cones.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/cones.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/src/cones.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/cones.c > CMakeFiles/scsdir.dir/src/cones.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/cones.c > CMakeFiles/scsdir.dir/src/cones.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/cones.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/src/cones.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/cones.c -o CMakeFiles/scsdir.dir/src/cones.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/cones.c -o CMakeFiles/scsdir.dir/src/cones.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/ctrlc.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/src/ctrlc.c.o: _deps/scs-src/src/ctrlc.c
 _deps/scs-build/CMakeFiles/scsdir.dir/src/ctrlc.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/src/ctrlc.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/src/ctrlc.c.o -MF CMakeFiles/scsdir.dir/src/ctrlc.c.o.d -o CMakeFiles/scsdir.dir/src/ctrlc.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/ctrlc.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/src/ctrlc.c.o -MF CMakeFiles/scsdir.dir/src/ctrlc.c.o.d -o CMakeFiles/scsdir.dir/src/ctrlc.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/ctrlc.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/ctrlc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/src/ctrlc.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/ctrlc.c > CMakeFiles/scsdir.dir/src/ctrlc.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/ctrlc.c > CMakeFiles/scsdir.dir/src/ctrlc.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/ctrlc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/src/ctrlc.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/ctrlc.c -o CMakeFiles/scsdir.dir/src/ctrlc.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/ctrlc.c -o CMakeFiles/scsdir.dir/src/ctrlc.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/exp_cone.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/src/exp_cone.c.o: _deps/scs-src/src/exp_cone.c
 _deps/scs-build/CMakeFiles/scsdir.dir/src/exp_cone.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/src/exp_cone.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/src/exp_cone.c.o -MF CMakeFiles/scsdir.dir/src/exp_cone.c.o.d -o CMakeFiles/scsdir.dir/src/exp_cone.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/exp_cone.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/src/exp_cone.c.o -MF CMakeFiles/scsdir.dir/src/exp_cone.c.o.d -o CMakeFiles/scsdir.dir/src/exp_cone.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/exp_cone.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/exp_cone.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/src/exp_cone.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/exp_cone.c > CMakeFiles/scsdir.dir/src/exp_cone.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/exp_cone.c > CMakeFiles/scsdir.dir/src/exp_cone.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/exp_cone.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/src/exp_cone.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/exp_cone.c -o CMakeFiles/scsdir.dir/src/exp_cone.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/exp_cone.c -o CMakeFiles/scsdir.dir/src/exp_cone.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/linalg.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/src/linalg.c.o: _deps/scs-src/src/linalg.c
 _deps/scs-build/CMakeFiles/scsdir.dir/src/linalg.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/src/linalg.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/src/linalg.c.o -MF CMakeFiles/scsdir.dir/src/linalg.c.o.d -o CMakeFiles/scsdir.dir/src/linalg.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/linalg.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/src/linalg.c.o -MF CMakeFiles/scsdir.dir/src/linalg.c.o.d -o CMakeFiles/scsdir.dir/src/linalg.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/linalg.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/linalg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/src/linalg.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/linalg.c > CMakeFiles/scsdir.dir/src/linalg.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/linalg.c > CMakeFiles/scsdir.dir/src/linalg.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/linalg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/src/linalg.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/linalg.c -o CMakeFiles/scsdir.dir/src/linalg.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/linalg.c -o CMakeFiles/scsdir.dir/src/linalg.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/normalize.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/src/normalize.c.o: _deps/scs-src/src/normalize.c
 _deps/scs-build/CMakeFiles/scsdir.dir/src/normalize.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/src/normalize.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/src/normalize.c.o -MF CMakeFiles/scsdir.dir/src/normalize.c.o.d -o CMakeFiles/scsdir.dir/src/normalize.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/normalize.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/src/normalize.c.o -MF CMakeFiles/scsdir.dir/src/normalize.c.o.d -o CMakeFiles/scsdir.dir/src/normalize.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/normalize.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/normalize.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/src/normalize.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/normalize.c > CMakeFiles/scsdir.dir/src/normalize.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/normalize.c > CMakeFiles/scsdir.dir/src/normalize.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/normalize.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/src/normalize.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/normalize.c -o CMakeFiles/scsdir.dir/src/normalize.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/normalize.c -o CMakeFiles/scsdir.dir/src/normalize.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/rw.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/src/rw.c.o: _deps/scs-src/src/rw.c
 _deps/scs-build/CMakeFiles/scsdir.dir/src/rw.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/src/rw.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/src/rw.c.o -MF CMakeFiles/scsdir.dir/src/rw.c.o.d -o CMakeFiles/scsdir.dir/src/rw.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/rw.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/src/rw.c.o -MF CMakeFiles/scsdir.dir/src/rw.c.o.d -o CMakeFiles/scsdir.dir/src/rw.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/rw.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/rw.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/src/rw.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/rw.c > CMakeFiles/scsdir.dir/src/rw.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/rw.c > CMakeFiles/scsdir.dir/src/rw.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/rw.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/src/rw.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/rw.c -o CMakeFiles/scsdir.dir/src/rw.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/rw.c -o CMakeFiles/scsdir.dir/src/rw.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/scs.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/src/scs.c.o: _deps/scs-src/src/scs.c
 _deps/scs-build/CMakeFiles/scsdir.dir/src/scs.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/src/scs.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/src/scs.c.o -MF CMakeFiles/scsdir.dir/src/scs.c.o.d -o CMakeFiles/scsdir.dir/src/scs.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/scs.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/src/scs.c.o -MF CMakeFiles/scsdir.dir/src/scs.c.o.d -o CMakeFiles/scsdir.dir/src/scs.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/scs.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/scs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/src/scs.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/scs.c > CMakeFiles/scsdir.dir/src/scs.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/scs.c > CMakeFiles/scsdir.dir/src/scs.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/scs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/src/scs.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/scs.c -o CMakeFiles/scsdir.dir/src/scs.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/scs.c -o CMakeFiles/scsdir.dir/src/scs.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/scs_version.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/src/scs_version.c.o: _deps/scs-src/src/scs_version.c
 _deps/scs-build/CMakeFiles/scsdir.dir/src/scs_version.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/src/scs_version.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/src/scs_version.c.o -MF CMakeFiles/scsdir.dir/src/scs_version.c.o.d -o CMakeFiles/scsdir.dir/src/scs_version.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/scs_version.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/src/scs_version.c.o -MF CMakeFiles/scsdir.dir/src/scs_version.c.o.d -o CMakeFiles/scsdir.dir/src/scs_version.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/scs_version.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/scs_version.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/src/scs_version.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/scs_version.c > CMakeFiles/scsdir.dir/src/scs_version.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/scs_version.c > CMakeFiles/scsdir.dir/src/scs_version.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/scs_version.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/src/scs_version.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/scs_version.c -o CMakeFiles/scsdir.dir/src/scs_version.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/scs_version.c -o CMakeFiles/scsdir.dir/src/scs_version.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/util.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/src/util.c.o: _deps/scs-src/src/util.c
 _deps/scs-build/CMakeFiles/scsdir.dir/src/util.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/src/util.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/src/util.c.o -MF CMakeFiles/scsdir.dir/src/util.c.o.d -o CMakeFiles/scsdir.dir/src/util.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/util.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/src/util.c.o -MF CMakeFiles/scsdir.dir/src/util.c.o.d -o CMakeFiles/scsdir.dir/src/util.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/util.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/src/util.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/util.c > CMakeFiles/scsdir.dir/src/util.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/util.c > CMakeFiles/scsdir.dir/src/util.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/src/util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/src/util.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/util.c -o CMakeFiles/scsdir.dir/src/util.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/src/util.c -o CMakeFiles/scsdir.dir/src/util.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/csparse.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/csparse.c.o: _deps/scs-src/linsys/csparse.c
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/csparse.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/linsys/csparse.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/csparse.c.o -MF CMakeFiles/scsdir.dir/linsys/csparse.c.o.d -o CMakeFiles/scsdir.dir/linsys/csparse.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/csparse.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/csparse.c.o -MF CMakeFiles/scsdir.dir/linsys/csparse.c.o.d -o CMakeFiles/scsdir.dir/linsys/csparse.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/csparse.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/csparse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/linsys/csparse.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/csparse.c > CMakeFiles/scsdir.dir/linsys/csparse.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/csparse.c > CMakeFiles/scsdir.dir/linsys/csparse.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/csparse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/linsys/csparse.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/csparse.c -o CMakeFiles/scsdir.dir/linsys/csparse.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/csparse.c -o CMakeFiles/scsdir.dir/linsys/csparse.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/scs_matrix.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/scs_matrix.c.o: _deps/scs-src/linsys/scs_matrix.c
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/scs_matrix.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/linsys/scs_matrix.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/scs_matrix.c.o -MF CMakeFiles/scsdir.dir/linsys/scs_matrix.c.o.d -o CMakeFiles/scsdir.dir/linsys/scs_matrix.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/scs_matrix.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/scs_matrix.c.o -MF CMakeFiles/scsdir.dir/linsys/scs_matrix.c.o.d -o CMakeFiles/scsdir.dir/linsys/scs_matrix.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/scs_matrix.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/scs_matrix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/linsys/scs_matrix.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/scs_matrix.c > CMakeFiles/scsdir.dir/linsys/scs_matrix.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/scs_matrix.c > CMakeFiles/scsdir.dir/linsys/scs_matrix.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/scs_matrix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/linsys/scs_matrix.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/scs_matrix.c -o CMakeFiles/scsdir.dir/linsys/scs_matrix.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/scs_matrix.c -o CMakeFiles/scsdir.dir/linsys/scs_matrix.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/cpu/direct/private.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/cpu/direct/private.c.o: _deps/scs-src/linsys/cpu/direct/private.c
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/cpu/direct/private.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/linsys/cpu/direct/private.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/cpu/direct/private.c.o -MF CMakeFiles/scsdir.dir/linsys/cpu/direct/private.c.o.d -o CMakeFiles/scsdir.dir/linsys/cpu/direct/private.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct/private.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/cpu/direct/private.c.o -MF CMakeFiles/scsdir.dir/linsys/cpu/direct/private.c.o.d -o CMakeFiles/scsdir.dir/linsys/cpu/direct/private.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct/private.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/cpu/direct/private.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/linsys/cpu/direct/private.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct/private.c > CMakeFiles/scsdir.dir/linsys/cpu/direct/private.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct/private.c > CMakeFiles/scsdir.dir/linsys/cpu/direct/private.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/cpu/direct/private.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/linsys/cpu/direct/private.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct/private.c -o CMakeFiles/scsdir.dir/linsys/cpu/direct/private.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/cpu/direct/private.c -o CMakeFiles/scsdir.dir/linsys/cpu/direct/private.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/qdldl/qdldl.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/qdldl/qdldl.c.o: _deps/scs-src/linsys/external/qdldl/qdldl.c
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/qdldl/qdldl.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/qdldl/qdldl.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/qdldl/qdldl.c.o -MF CMakeFiles/scsdir.dir/linsys/external/qdldl/qdldl.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/qdldl/qdldl.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl/qdldl.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/qdldl/qdldl.c.o -MF CMakeFiles/scsdir.dir/linsys/external/qdldl/qdldl.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/qdldl/qdldl.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl/qdldl.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/qdldl/qdldl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/linsys/external/qdldl/qdldl.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl/qdldl.c > CMakeFiles/scsdir.dir/linsys/external/qdldl/qdldl.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl/qdldl.c > CMakeFiles/scsdir.dir/linsys/external/qdldl/qdldl.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/qdldl/qdldl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/linsys/external/qdldl/qdldl.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl/qdldl.c -o CMakeFiles/scsdir.dir/linsys/external/qdldl/qdldl.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/qdldl/qdldl.c -o CMakeFiles/scsdir.dir/linsys/external/qdldl/qdldl.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/SuiteSparse_config.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/SuiteSparse_config.c.o: _deps/scs-src/linsys/external/amd/SuiteSparse_config.c
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/SuiteSparse_config.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/SuiteSparse_config.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/SuiteSparse_config.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/SuiteSparse_config.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/SuiteSparse_config.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/SuiteSparse_config.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/SuiteSparse_config.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/SuiteSparse_config.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/SuiteSparse_config.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/SuiteSparse_config.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/SuiteSparse_config.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/linsys/external/amd/SuiteSparse_config.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/SuiteSparse_config.c > CMakeFiles/scsdir.dir/linsys/external/amd/SuiteSparse_config.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/SuiteSparse_config.c > CMakeFiles/scsdir.dir/linsys/external/amd/SuiteSparse_config.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/SuiteSparse_config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/linsys/external/amd/SuiteSparse_config.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/SuiteSparse_config.c -o CMakeFiles/scsdir.dir/linsys/external/amd/SuiteSparse_config.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/SuiteSparse_config.c -o CMakeFiles/scsdir.dir/linsys/external/amd/SuiteSparse_config.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_1.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_1.c.o: _deps/scs-src/linsys/external/amd/amd_1.c
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_1.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_1.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_1.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/amd_1.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_1.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_1.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_1.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/amd_1.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_1.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_1.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/linsys/external/amd/amd_1.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_1.c > CMakeFiles/scsdir.dir/linsys/external/amd/amd_1.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_1.c > CMakeFiles/scsdir.dir/linsys/external/amd/amd_1.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/linsys/external/amd/amd_1.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_1.c -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_1.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_1.c -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_1.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_2.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_2.c.o: _deps/scs-src/linsys/external/amd/amd_2.c
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_2.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_2.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_2.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/amd_2.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_2.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_2.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_2.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/amd_2.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_2.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_2.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/linsys/external/amd/amd_2.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_2.c > CMakeFiles/scsdir.dir/linsys/external/amd/amd_2.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_2.c > CMakeFiles/scsdir.dir/linsys/external/amd/amd_2.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/linsys/external/amd/amd_2.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_2.c -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_2.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_2.c -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_2.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_aat.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_aat.c.o: _deps/scs-src/linsys/external/amd/amd_aat.c
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_aat.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_aat.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_aat.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/amd_aat.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_aat.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_aat.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_aat.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/amd_aat.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_aat.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_aat.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_aat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/linsys/external/amd/amd_aat.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_aat.c > CMakeFiles/scsdir.dir/linsys/external/amd/amd_aat.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_aat.c > CMakeFiles/scsdir.dir/linsys/external/amd/amd_aat.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_aat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/linsys/external/amd/amd_aat.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_aat.c -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_aat.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_aat.c -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_aat.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_control.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_control.c.o: _deps/scs-src/linsys/external/amd/amd_control.c
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_control.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_control.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_control.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/amd_control.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_control.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_control.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_control.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/amd_control.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_control.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_control.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_control.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/linsys/external/amd/amd_control.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_control.c > CMakeFiles/scsdir.dir/linsys/external/amd/amd_control.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_control.c > CMakeFiles/scsdir.dir/linsys/external/amd/amd_control.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_control.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/linsys/external/amd/amd_control.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_control.c -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_control.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_control.c -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_control.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_defaults.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_defaults.c.o: _deps/scs-src/linsys/external/amd/amd_defaults.c
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_defaults.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_defaults.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_defaults.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/amd_defaults.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_defaults.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_defaults.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_defaults.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/amd_defaults.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_defaults.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_defaults.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_defaults.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/linsys/external/amd/amd_defaults.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_defaults.c > CMakeFiles/scsdir.dir/linsys/external/amd/amd_defaults.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_defaults.c > CMakeFiles/scsdir.dir/linsys/external/amd/amd_defaults.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_defaults.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/linsys/external/amd/amd_defaults.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_defaults.c -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_defaults.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_defaults.c -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_defaults.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_dump.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_dump.c.o: _deps/scs-src/linsys/external/amd/amd_dump.c
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_dump.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_dump.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_dump.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/amd_dump.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_dump.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_dump.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_dump.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/amd_dump.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_dump.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_dump.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_dump.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/linsys/external/amd/amd_dump.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_dump.c > CMakeFiles/scsdir.dir/linsys/external/amd/amd_dump.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_dump.c > CMakeFiles/scsdir.dir/linsys/external/amd/amd_dump.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_dump.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/linsys/external/amd/amd_dump.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_dump.c -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_dump.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_dump.c -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_dump.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_global.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_global.c.o: _deps/scs-src/linsys/external/amd/amd_global.c
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_global.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_global.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_global.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/amd_global.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_global.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_global.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_global.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/amd_global.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_global.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_global.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_global.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/linsys/external/amd/amd_global.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_global.c > CMakeFiles/scsdir.dir/linsys/external/amd/amd_global.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_global.c > CMakeFiles/scsdir.dir/linsys/external/amd/amd_global.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_global.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/linsys/external/amd/amd_global.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_global.c -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_global.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_global.c -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_global.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_info.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_info.c.o: _deps/scs-src/linsys/external/amd/amd_info.c
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_info.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_info.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_info.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/amd_info.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_info.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_info.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_info.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/amd_info.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_info.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_info.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_info.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/linsys/external/amd/amd_info.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_info.c > CMakeFiles/scsdir.dir/linsys/external/amd/amd_info.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_info.c > CMakeFiles/scsdir.dir/linsys/external/amd/amd_info.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_info.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/linsys/external/amd/amd_info.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_info.c -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_info.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_info.c -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_info.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_order.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_order.c.o: _deps/scs-src/linsys/external/amd/amd_order.c
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_order.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_order.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_order.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/amd_order.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_order.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_order.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_order.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/amd_order.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_order.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_order.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_order.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/linsys/external/amd/amd_order.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_order.c > CMakeFiles/scsdir.dir/linsys/external/amd/amd_order.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_order.c > CMakeFiles/scsdir.dir/linsys/external/amd/amd_order.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_order.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/linsys/external/amd/amd_order.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_order.c -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_order.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_order.c -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_order.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_post_tree.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_post_tree.c.o: _deps/scs-src/linsys/external/amd/amd_post_tree.c
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_post_tree.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_post_tree.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_post_tree.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/amd_post_tree.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_post_tree.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_post_tree.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_post_tree.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/amd_post_tree.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_post_tree.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_post_tree.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_post_tree.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/linsys/external/amd/amd_post_tree.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_post_tree.c > CMakeFiles/scsdir.dir/linsys/external/amd/amd_post_tree.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_post_tree.c > CMakeFiles/scsdir.dir/linsys/external/amd/amd_post_tree.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_post_tree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/linsys/external/amd/amd_post_tree.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_post_tree.c -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_post_tree.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_post_tree.c -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_post_tree.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_postorder.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_postorder.c.o: _deps/scs-src/linsys/external/amd/amd_postorder.c
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_postorder.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_postorder.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_postorder.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/amd_postorder.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_postorder.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_postorder.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_postorder.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/amd_postorder.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_postorder.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_postorder.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_postorder.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/linsys/external/amd/amd_postorder.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_postorder.c > CMakeFiles/scsdir.dir/linsys/external/amd/amd_postorder.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_postorder.c > CMakeFiles/scsdir.dir/linsys/external/amd/amd_postorder.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_postorder.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/linsys/external/amd/amd_postorder.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_postorder.c -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_postorder.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_postorder.c -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_postorder.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_preprocess.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_preprocess.c.o: _deps/scs-src/linsys/external/amd/amd_preprocess.c
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_preprocess.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_preprocess.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_preprocess.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/amd_preprocess.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_preprocess.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_preprocess.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_preprocess.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/amd_preprocess.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_preprocess.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_preprocess.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_preprocess.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/linsys/external/amd/amd_preprocess.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_preprocess.c > CMakeFiles/scsdir.dir/linsys/external/amd/amd_preprocess.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_preprocess.c > CMakeFiles/scsdir.dir/linsys/external/amd/amd_preprocess.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_preprocess.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/linsys/external/amd/amd_preprocess.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_preprocess.c -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_preprocess.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_preprocess.c -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_preprocess.c.s
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_valid.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/flags.make
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_valid.c.o: _deps/scs-src/linsys/external/amd/amd_valid.c
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_valid.c.o: _deps/scs-build/CMakeFiles/scsdir.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_valid.c.o"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_valid.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/amd_valid.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_valid.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_valid.c
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_valid.c.o -MF CMakeFiles/scsdir.dir/linsys/external/amd/amd_valid.c.o.d -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_valid.c.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_valid.c
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_valid.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/scsdir.dir/linsys/external/amd/amd_valid.c.i"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_valid.c > CMakeFiles/scsdir.dir/linsys/external/amd/amd_valid.c.i
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_valid.c > CMakeFiles/scsdir.dir/linsys/external/amd/amd_valid.c.i
 
 _deps/scs-build/CMakeFiles/scsdir.dir/linsys/external/amd/amd_valid.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/scsdir.dir/linsys/external/amd/amd_valid.c.s"
-	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_valid.c -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_valid.c.s
+	cd /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-build && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/scs-src/linsys/external/amd/amd_valid.c -o CMakeFiles/scsdir.dir/linsys/external/amd/amd_valid.c.s
 
 # Object files for target scsdir
 scsdir_OBJECTS = \

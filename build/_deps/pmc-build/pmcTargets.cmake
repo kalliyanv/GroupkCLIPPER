@@ -54,11 +54,11 @@ set_target_properties(pmc::pmc PROPERTIES
   INTERFACE_LINK_LIBRARIES "OpenMP::OpenMP_CXX"
 )
 
-# Import target "pmc::pmc" for configuration "Debug"
-set_property(TARGET pmc::pmc APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
+# Import target "pmc::pmc" for configuration "Release"
+set_property(TARGET pmc::pmc APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(pmc::pmc PROPERTIES
-  IMPORTED_LOCATION_DEBUG "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build/libpmc.so"
-  IMPORTED_SONAME_DEBUG "libpmc.so"
+  IMPORTED_LOCATION_RELEASE "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/build/_deps/pmc-build/libpmc.so"
+  IMPORTED_SONAME_RELEASE "libpmc.so"
   )
 
 # This file does not depend on other imported targets which have

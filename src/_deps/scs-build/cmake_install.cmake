@@ -47,15 +47,15 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "shlib" OR NOT CMAKE_INSTALL_COMPONENT)
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libscsdir.so.3.2.3")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libscsdir.so.3.2.3"
-         RPATH "$ORIGIN/:$ORIGIN/../lib:/usr/local/lib")
+         RPATH "$ORIGIN/:$ORIGIN/../lib")
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/lib/libscsdir.so.3.2.3")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libscsdir.so.3.2.3" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libscsdir.so.3.2.3")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libscsdir.so.3.2.3"
-         OLD_RPATH "/usr/local/lib::::::::::::::::::::::::"
-         NEW_RPATH "$ORIGIN/:$ORIGIN/../lib:/usr/local/lib")
+         OLD_RPATH ":::::::::::::::::::::::"
+         NEW_RPATH "$ORIGIN/:$ORIGIN/../lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libscsdir.so.3.2.3")
     endif()
@@ -78,15 +78,15 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "shlib" OR NOT CMAKE_INSTALL_COMPONENT)
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libscsindir.so.3.2.3")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libscsindir.so.3.2.3"
-         RPATH "$ORIGIN/:$ORIGIN/../lib:/usr/local/lib")
+         RPATH "$ORIGIN/:$ORIGIN/../lib")
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/lib/libscsindir.so.3.2.3")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libscsindir.so.3.2.3" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libscsindir.so.3.2.3")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libscsindir.so.3.2.3"
-         OLD_RPATH "/usr/local/lib::::::::::::::::::::::::"
-         NEW_RPATH "$ORIGIN/:$ORIGIN/../lib:/usr/local/lib")
+         OLD_RPATH ":::::::::::::::::::::::"
+         NEW_RPATH "$ORIGIN/:$ORIGIN/../lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libscsindir.so.3.2.3")
     endif()

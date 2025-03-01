@@ -1174,3 +1174,43 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/usr/local/share/cmake/xtensor/xtensorConfig.cmake:72 (CHECK_CXX_COMPILER_FLAG)"
+      - "CMakeLists.txt:30 (find_package)"
+    checks:
+      - "Performing Test arch_native_supported"
+    directories:
+      source: "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/CMakeFiles/CMakeScratch/TryCompile-0tpYjS"
+      binary: "/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/CMakeFiles/CMakeScratch/TryCompile-0tpYjS"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "arch_native_supported"
+      cached: true
+      stdout: |
+        Change Dir: '/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/CMakeFiles/CMakeScratch/TryCompile-0tpYjS'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a54f7/fast
+        make[1]: Entering directory '/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/CMakeFiles/CMakeScratch/TryCompile-0tpYjS'
+        /usr/bin/make  -f CMakeFiles/cmTC_a54f7.dir/build.make CMakeFiles/cmTC_a54f7.dir/build
+        make[2]: Entering directory '/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/CMakeFiles/CMakeScratch/TryCompile-0tpYjS'
+        Building CXX object CMakeFiles/cmTC_a54f7.dir/src.cxx.o
+        /usr/bin/c++ -Darch_native_supported  -std=gnu++17   -march=native -o CMakeFiles/cmTC_a54f7.dir/src.cxx.o -c /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/CMakeFiles/CMakeScratch/TryCompile-0tpYjS/src.cxx
+        Linking CXX executable cmTC_a54f7
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a54f7.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_a54f7.dir/src.cxx.o -o cmTC_a54f7
+        make[2]: Leaving directory '/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/CMakeFiles/CMakeScratch/TryCompile-0tpYjS'
+        make[1]: Leaving directory '/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/CMakeFiles/CMakeScratch/TryCompile-0tpYjS'
+        
+      exitCode: 0
+...

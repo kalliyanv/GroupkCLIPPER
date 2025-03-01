@@ -131,6 +131,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/gkcm_brendon.dir/DependInfo.cmake"
+  "CMakeFiles/goats.dir/DependInfo.cmake"
   "/home/kalliyanlay/Documents/BYU/research/clipper/build/CMakeFiles/clipper.dir/DependInfo.cmake"
   "_deps/pmc-build/CMakeFiles/pmc.dir/DependInfo.cmake"
   "_deps/pmc-build/CMakeFiles/pmc_main.dir/DependInfo.cmake"

@@ -1,4 +1,3 @@
-/home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/CMakeFiles/GroupkCLIPPER.dir
 /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/CMakeFiles/gkcm_brendon.dir
 /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/CMakeFiles/edit_cache.dir
 /home/kalliyanlay/Documents/BYU/research/CAAMS/GroupkCLIPPER/src/CMakeFiles/rebuild_cache.dir

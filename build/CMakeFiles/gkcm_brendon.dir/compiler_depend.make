@@ -403,6 +403,7 @@ CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.o: /home/kalliyanlay/Documents/BYU
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -410,11 +411,18 @@ CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.o: /home/kalliyanlay/Documents/BYU
   /usr/include/x86_64-linux-gnu/bits/resource.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
@@ -454,6 +462,7 @@ CMakeFiles/gkcm_brendon.dir/src/GkCLIPPER.cpp.o: /home/kalliyanlay/Documents/BYU
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
@@ -2622,6 +2631,7 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathinline.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
@@ -2630,6 +2640,7 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
   /usr/include/x86_64-linux-gnu/bits/resource.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/sigaction.h \
   /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
@@ -2648,8 +2659,14 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
   /usr/include/x86_64-linux-gnu/bits/statx.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
@@ -2695,10 +2712,12 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
@@ -4393,8 +4412,6 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 
 /usr/local/include/gtest/gtest_pred_impl.h:
 
-/usr/local/include/gtest/gtest-typed-test.h:
-
 /usr/local/include/gtest/gtest-param-test.h:
 
 /usr/local/include/gtest/gtest-assertion-result.h:
@@ -4771,8 +4788,6 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 
 /usr/local/include/xflens/cxxlapack/interface/stevr.tcc:
 
-/usr/local/include/xflens/cxxlapack/interface/stevr.h:
-
 /usr/local/include/xflens/cxxlapack/interface/stevd.tcc:
 
 /usr/local/include/xflens/cxxlapack/interface/stevd.h:
@@ -5106,10 +5121,6 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 /usr/local/include/xflens/cxxlapack/interface/lasq4.h:
 
 /usr/local/include/xflens/cxxlapack/interface/lasq1.h:
-
-/usr/local/include/xflens/cxxlapack/interface/syevd.h:
-
-/usr/local/include/xflens/cxxlapack/interface/lasdt.h:
 
 /usr/local/include/xflens/cxxlapack/interface/rot.h:
 
@@ -5757,21 +5768,21 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 
 /usr/local/include/xflens/cxxlapack/interface/gttrf.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/waitpkgintrin.h:
+/usr/local/include/xflens/cxxlapack/interface/lacp2.h:
 
-/usr/local/include/xflens/cxxlapack/interface/hpsvx.h:
+/usr/local/include/xflens/cxxlapack/interface/gtsvx.tcc:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h:
+/usr/local/include/xflens/cxxlapack/interface/gtsvx.h:
 
-/usr/local/include/xtensor/xtensor.hpp:
+/usr/local/include/xflens/cxxlapack/interface/gtsv.tcc:
 
-/usr/local/include/xflens/cxxlapack/interface/lascl.tcc:
+/usr/local/include/xflens/cxxlapack/interface/gtsv.h:
 
-/usr/local/include/xflens/cxxlapack/interface/heequb.tcc:
+/usr/local/include/xflens/cxxlapack/interface/gtrfs.tcc:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:
+/usr/local/include/xflens/cxxlapack/interface/gtcon.tcc:
 
-/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h:
+/usr/local/include/xflens/cxxlapack/interface/gtcon.h:
 
 /usr/local/include/xflens/cxxlapack/interface/latrans.tcc:
 
@@ -6011,12 +6022,6 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 
 /usr/local/include/xflens/cxxblas/cxxblas.tcc:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/vaesintrin.h:
-
-/usr/include/eigen3/Eigen/src/OrderingMethods/Ordering.h:
-
-/usr/include/eigen3/Eigen/src/Core/CoreIterators.h:
-
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/local/include/Fastor/expressions/linalg_ops/linalg_traits.h:
@@ -6077,11 +6082,19 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 
 /usr/local/include/xflens/cxxlapack/cxxlapack.tcc:
 
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+
 /usr/local/include/xflens/cxxlapack/interface/trsen.tcc:
 
 /usr/local/include/xflens/cxxlapack/interface/sptri.h:
 
 /usr/include/wchar.h:
+
+/usr/local/include/xflens/cxxlapack/interface/stevr.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/local/include/xflens/cxxblas/level1extensions/trcopy.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
@@ -6113,6 +6126,12 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/xsaveoptintrin.h:
 
+/usr/local/include/xflens/cxxlapack/interface/syevd.h:
+
+/usr/local/include/xflens/cxxlapack/interface/lasdt.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathinline.h:
+
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
 /usr/local/include/xflens/cxxlapack/interface/laqr0.h:
@@ -6128,6 +6147,8 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 /usr/local/include/xflens/cxxlapack/interface/gelsx.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
 
 /usr/local/include/xflens/cxxlapack/interface/lasr.h:
 
@@ -6208,10 +6229,6 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
 /usr/local/include/xflens/cxxblas/sparselevel2/trccssv.h:
-
-/usr/local/include/xflens/cxxlapack/interface/lacp2.h:
-
-/usr/local/include/xflens/cxxlapack/interface/gtsvx.tcc:
 
 /usr/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h:
 
@@ -6515,14 +6532,6 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 
 /usr/local/include/xflens/cxxlapack/interface/geequb.tcc:
 
-/usr/local/include/xflens/cxxlapack/interface/sygvx.tcc:
-
-/usr/local/include/xflens/cxxlapack/interface/larf.h:
-
-/usr/local/include/xflens/cxxblas/sparselevel2/sparselevel2.tcc:
-
-/usr/include/eigen3/Eigen/src/Core/Visitor.h:
-
 /usr/local/include/xflens/cxxlapack/interface/lanst.h:
 
 /usr/local/include/xflens/cxxblas/auxiliary/complex.h:
@@ -6679,6 +6688,16 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 
 /usr/local/include/xflens/cxxlapack/interface/gges.tcc:
 
+/usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h:
+
+/usr/local/include/xtensor/xtensor.hpp:
+
+/usr/local/include/xflens/cxxlapack/interface/lascl.tcc:
+
+/usr/local/include/xflens/cxxlapack/interface/heequb.tcc:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:
+
 /usr/local/include/xtensor/xfixed.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
@@ -6797,8 +6816,6 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 
 /usr/include/limits.h:
 
-/usr/local/include/xflens/cxxlapack/interface/gtrfs.tcc:
-
 /usr/include/c++/9/bits/cxxabi_forced.h:
 
 /usr/include/c++/9/bits/basic_ios.tcc:
@@ -6879,12 +6896,6 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 
 /usr/local/include/Fastor/meta/meta.h:
 
-/usr/local/include/xflens/cxxlapack/interface/gesvd.tcc:
-
-/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h:
-
-/usr/local/include/xflens/cxxlapack/interface/gesvd.h:
-
 /usr/include/c++/9/bits/unique_lock.h:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
@@ -6902,6 +6913,8 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 /usr/local/include/xflens/cxxlapack/interface/orgrq.tcc:
 
 /usr/include/c++/9/bits/shared_ptr.h:
+
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 
 /usr/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h:
 
@@ -6926,8 +6939,6 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 /usr/local/include/xflens/cxxlapack/interface/lanhs.tcc:
 
 /usr/local/include/xflens/cxxlapack/interface/disna.tcc:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/wbnoinvdintrin.h:
 
 /usr/include/c++/9/bits/node_handle.h:
 
@@ -7006,6 +7017,12 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 /usr/include/c++/9/cstdio:
 
 /usr/include/c++/9/stdexcept:
+
+/usr/include/eigen3/Eigen/src/OrderingMethods/Ordering.h:
+
+/usr/include/eigen3/Eigen/src/Core/CoreIterators.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/vaesintrin.h:
 
 /usr/include/c++/9/bits/specfun.h:
 
@@ -7159,12 +7176,6 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 
 /usr/local/include/Fastor/expressions/views/tensor_random_views.h:
 
-/usr/local/include/xflens/cxxlapack/interface/hegs2.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/vpclmulqdqintrin.h:
-
-/usr/include/c++/9/numeric:
-
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
 /usr/local/include/Fastor/backend/adjoint.h:
@@ -7213,6 +7224,10 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 
 /usr/local/include/xflens/cxxblas/level2/gbmv.tcc:
 
+/usr/local/include/gtest/gtest-typed-test.h:
+
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
 /usr/include/c++/9/bits/locale_classes.h:
 
 /usr/local/include/xtensor/xbuffer_adaptor.hpp:
@@ -7253,6 +7268,12 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 
 /usr/include/c++/9/bits/stl_vector.h:
 
+/usr/local/include/xflens/cxxblas/sparselevel3/trcrssm.h:
+
+/usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h:
+
+/usr/local/include/xflens/cxxblas/level1/rot.h:
+
 /usr/include/c++/9/bits/locale_facets_nonio.tcc:
 
 /usr/local/include/xflens/cxxlapack/interface/lansp.h:
@@ -7262,8 +7283,6 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 /usr/local/include/xflens/cxxblas/level2extensions/trmv.tcc:
 
 /usr/include/eigen3/Eigen/QR:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/tmmintrin.h:
 
 /usr/local/include/xtensor-blas/xtensor-blas/xtensor-blas/xblas_utils.hpp:
 
@@ -7301,9 +7320,7 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 
 /usr/include/c++/9/bits/predefined_ops.h:
 
-/usr/include/c++/9/bits/concept_check.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/wmmintrin.h:
+/usr/include/x86_64-linux-gnu/bits/select2.h:
 
 /usr/include/eigen3/Eigen/src/Core/CommaInitializer.h:
 
@@ -7703,6 +7720,40 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 
 /usr/include/eigen3/Eigen/src/Core/Solve.h:
 
+/usr/local/include/xflens/cxxlapack/interface/hpsvx.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/tmmintrin.h:
+
+/usr/local/include/xflens/cxxlapack/interface/hegs2.h:
+
+/usr/include/c++/9/numeric:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/vpclmulqdqintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/waitpkgintrin.h:
+
+/usr/local/include/xflens/cxxlapack/interface/sygvx.tcc:
+
+/usr/local/include/xflens/cxxlapack/interface/larf.h:
+
+/usr/include/eigen3/Eigen/src/Core/Visitor.h:
+
+/usr/local/include/xflens/cxxblas/sparselevel2/sparselevel2.tcc:
+
+/usr/include/eigen3/Eigen/src/Core/arch/AVX/PacketMath.h:
+
+/usr/local/include/xflens/cxxlapack/interface/gesvd.h:
+
+/usr/local/include/xflens/cxxlapack/interface/gesvd.tcc:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/wbnoinvdintrin.h:
+
+/usr/include/c++/9/bits/concept_check.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/wmmintrin.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/9/include/xsavecintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/xsavesintrin.h:
@@ -7775,6 +7826,8 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 
 /usr/local/include/gtest/internal/gtest-type-util.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/9/include/xsaveintrin.h:
 
 /usr/local/include/Fastor/config/macros.h:
@@ -7786,6 +7839,10 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 /usr/local/include/xflens/cxxlapack/interface/posv.tcc:
 
 /usr/local/include/Fastor/expressions/binary_ops/binary_arithmetic_ops.h:
+
+/usr/local/include/xflens/cxxlapack/interface/gtrfs.h:
+
+/usr/local/include/Fastor/expressions/expression_traits.h:
 
 /usr/local/include/xflens/cxxblas/level1extensions/gecotr.tcc:
 
@@ -7916,8 +7973,6 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 /usr/local/include/Fastor/simd_vector/simd_vector_common.h:
 
 /usr/local/include/Fastor/simd_vector/simd_vector_double.h:
-
-/usr/local/include/xflens/cxxlapack/interface/gtsv.h:
 
 /usr/local/include/xflens/cxxlapack/interface/sposv.h:
 
@@ -8109,8 +8164,6 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 
 /usr/local/include/xflens/cxxblas/level1/axpy.h:
 
-/usr/local/include/xflens/cxxlapack/interface/gtcon.tcc:
-
 /usr/local/include/xflens/cxxblas/level1/axpy.tcc:
 
 /usr/local/include/xflens/cxxblas/level1/copy.tcc:
@@ -8225,6 +8278,8 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 
 /usr/local/include/xflens/cxxblas/level1extensions/geaxpby.h:
 
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
+
 /usr/local/include/xflens/cxxblas/level1extensions/geaxpy.h:
 
 /usr/local/include/xflens/cxxblas/level1extensions/geaxpy.tcc:
@@ -8316,8 +8371,6 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 /usr/local/include/xflens/cxxblas/level1extensions/traxpby.h:
 
 /usr/local/include/xflens/cxxblas/level1extensions/traxpy.tcc:
-
-/usr/local/include/xflens/cxxblas/level1extensions/trcopy.h:
 
 /usr/local/include/xflens/cxxblas/level1extensions/trcopy.tcc:
 
@@ -8565,13 +8618,9 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 
 /usr/local/include/xflens/cxxlapack/interface/gels.h:
 
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
+
 /usr/local/include/xflens/cxxblas/sparselevel3/trccssm.h:
-
-/usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h:
-
-/usr/local/include/xflens/cxxblas/level1/rot.h:
-
-/usr/local/include/xflens/cxxblas/sparselevel3/trcrssm.h:
 
 /usr/local/include/xflens/cxxlapack/interface/la_hercond_x.h:
 
@@ -8916,13 +8965,3 @@ CMakeFiles/gkcm_brendon.dir/src/gkcm_test.cpp.o: /home/kalliyanlay/Documents/BYU
 /usr/local/include/xflens/cxxlapack/interface/ggsvd.h:
 
 /usr/local/include/xflens/cxxlapack/interface/gsvj1.h:
-
-/usr/local/include/xflens/cxxlapack/interface/gtcon.h:
-
-/usr/local/include/Fastor/expressions/expression_traits.h:
-
-/usr/local/include/xflens/cxxlapack/interface/gtrfs.h:
-
-/usr/local/include/xflens/cxxlapack/interface/gtsv.tcc:
-
-/usr/local/include/xflens/cxxlapack/interface/gtsvx.h:
